@@ -1,0 +1,269 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="imagetoolbar" content="no" />
+<title>{C.SANGHO}</title>
+<link href="../css.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../flash.js"></script>
+<script type="text/javascript" src="../common.js"></script><noscript></noscript>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function loginSub(form){
+	if (isNull(form.name.value)) {
+		alert("성명을 입력하세요.");
+		form.name.value = '';
+		form.name.focus();
+		return false;
+	}
+
+	if (isNull(form.email.value)) {
+		alert("메일주소를 입력하세요.");
+		form.email.value = '';
+		form.email.focus();
+		return false;
+	}
+
+	return true;
+}
+
+function loginSub2(form){
+	<!--{? pwresultsec == '' }-->
+	if (isNull(form.userid.value)) {
+		alert("아이디를 입력하세요.");
+		form.userid.value = '';
+		form.userid.focus();
+		return false;
+	}
+
+	if (isNull(form.name.value)) {
+		alert("성명을 입력하세요.");
+		form.name.value = '';
+		form.name.focus();
+		return false;
+	}
+
+	if (isNull(form.email.value)) {
+		alert("메일주소를 입력하세요.");
+		form.email.value = '';
+		form.email.focus();
+		return false;
+	}
+	<!--{:}-->
+	if (isNull(frm.pincode.value)) {
+		alert("새비밀번호를 입력하세요.");
+		frm.pincode.value = '';
+		frm.pincode.focus();
+		return false;
+	}
+
+	if(frm.pincode.length < 4 || frm.pincode.length > 12){
+		alert("비밀번호는 4자이상 12자까지 입력가능합니다.");
+		frm.pincode.value = "";
+		frm.pincode.focus();
+	 return false;
+	}
+
+	if(frm.pincode.value != frm.pincodeRE.value){
+		alert("비밀번호를 다시 확인 바랍니다.");
+		frm.pincode.value = '';
+		frm.pincodeRE.value = '';
+		frm.pincode.focus();
+	 return false;
+	}
+	<!--{/}-->
+
+	return true;
+}
+//-->
+</SCRIPT>
+<style type="text/css">
+<!--
+#menu {
+	position:absolute;
+	width:741px;
+	height:92px;
+	z-index:2;
+}
+#main_img {
+	position:absolute;
+	width:950px;
+	height:341px;
+	z-index:1;
+}
+#sub_img {
+	position:absolute;
+	width:950px;
+	height:186px;
+	z-index:1;
+}
+-->
+</style>
+</head>
+<body>
+<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="950" height="621" valign="top"><table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="261" valign="top" background="../images/s_bg_01.gif"><table width="950" height="261" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="76" valign="top">{#inc_top}</td>
+          </tr>
+          <tr>
+            <td height="186" valign="top">{#inc_sub_img}</td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td valign="top"><table width="950" height="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="210" valign="top">{#inc_sm}</td>
+            <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td background="../images/s_bg_02.gif">&nbsp;</td>
+                <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="336" height="29"><img src="../images/tit_10_04.gif" width="195" height="29"></td>
+                      <td width="321" align="right" class="textnavi">HOME &gt; 회원정보 &gt; 아이디/비밀번호 찾기</td>
+                      <td width="10" class="textnavi">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td height="1" colspan="3" bgcolor="d0e4f0"></td>
+                    </tr>
+                    <tr>
+                      <td height="20" colspan="3" ></td>
+                    </tr>
+                </table></td>
+                <td background="../images/s_bg_03.gif">&nbsp;</td>
+              </tr>
+              <tr>
+                <td width="40" height="400" background="../images/s_bg_02.gif">&nbsp;</td>
+                <td valign="top"><table width="666" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td align="center"><table width="557" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td><img src="../images/p_01.gif" width="557" height="41"></td>
+                      </tr>
+                      <tr>
+                        <td background="../images/p_back.gif">
+
+									<form name="frm" method="post" action="10_member_04.php" onsubmit="return loginSub(this);">
+									<input type="hidden" name="flag" value="id">
+								<table width="557" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td width="29">&nbsp;</td>
+                            <td width="70" align="center"><img src="../images/p_name.gif" width="26" height="12"></td>
+                            <td width="120"><input name="name" type="text" id="name" size="18" class="input" maxlength="18" tabindex="1" /></td>
+                            <td width="80" rowspan="2"><input type="image" src="../images/p_ok.gif" width="62" height="50" tabindex="3" /></td>
+                            <td><!--{? idresultsec == 'ok' }--><img src="../images/p_text.gif" width="204" height="14"><!--{/}--></td>
+                            <td>&nbsp;</td>
+                          </tr>
+                          <tr>
+                            <td>&nbsp;</td>
+                            <td align="center"><img src="../images/p_mail.gif" width="41" height="12"></td>
+                            <td><input name="email" type="text" id="email" size="18" class="input" maxlength="18" tabindex="2" /></td>
+                            <td><!--{? idresultsec != '' }--><input name="idresult" type="text" id="idresult" size="32" class="input" maxlength="18" value="{idresult}" readonly /><!--{/}--></td>
+                            <td>&nbsp;</td>
+                          </tr>
+                        </table>
+									</form>
+
+								</td>
+                      </tr>
+                      <tr>
+                        <td height="11"><img src="../images/p_02.gif" width="557" height="11"></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td align="center"><table width="557" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td><img src="../images/p_012.gif" width="557" height="41"></td>
+                      </tr>
+                      <tr>
+                        <td background="../images/p_back.gif">
+
+									<!--{? pwresultsec == '' }-->
+								<form name="frm2" method="post" action="10_member_04.php" onsubmit="return loginSub2(this);">
+								<input type="hidden" name="flag" value="pw">
+								<table width="557" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                              <td width="29">&nbsp;</td>
+                              <td width="70" align="center"><img src="../images/p_id.gif" width="33" height="12"></td>
+                              <td width="130"><input name="userid" type="text" id="userid" size="18" class="input" maxlength="18" tabindex="5" /></td>
+                              <td width="80" align="center"><img src="../images/p_name.gif" width="26" height="12"></td>
+                              <td width="130"><input name="name" type="text" id="name" size="18" class="input" maxlength="18" tabindex="6" /></td>
+                              <td rowspan="2">&nbsp;<input type="image" src="../images/p_ok.gif" width="62" height="50" tabindex="8" /></td>
+                            </tr>
+                            <tr>
+                              <td>&nbsp;</td>
+                              <td align="center"><img src="../images/p_mail.gif" width="41" height="12"></td>
+                              <td><input name="email" type="text" id="email" size="18" class="input" maxlength="18" tabindex="7" /></td>
+                              <td width="70">&nbsp;</td>
+                              <td>&nbsp;</td>
+                              </tr>
+                        </table>
+								</form>
+									<!--{:}-->
+								<form name="frm2" method="post" action="10_member_04_post.php" onsubmit="return loginSub2(this);">
+								<input type="hidden" name="flag" value="pw">
+								<input type="hidden" name="name" value="{name}">
+								<input type="hidden" name="email" value="{email}">
+								<input type="hidden" name="userid" value="{userid}">
+								<table width="557" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                              <td width="29">&nbsp;</td>
+                              <td width="70" align="center">새비밀번호</td>
+                              <td width="130"><input name="pincode" type="password" id="pincode" size="18" class="input" maxlength="18" /></td>
+                              <td width="80" align="center">비밀번호확인</td>
+                              <td width="130"><input name="pincodeRE" type="password" id="pincodeRE" size="18" class="input" maxlength="18" /></td>
+                              <td rowspan="2">&nbsp;<input type="image" src="../images/p_ok.gif" width="62" height="50"></td>
+                            </tr>
+                        </table>
+								</form>
+									<!--{/}-->
+                            <!--tr>
+                              <td height="30" colspan="6" align="center"><img src="../images/p_text2.gif" width="253" height="16"></td>
+                              </tr-->
+
+								</td>
+                      </tr>
+                      <tr>
+                        <td height="11"><img src="../images/p_02.gif" width="557" height="11"></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                </table></td>
+                <td width="33" background="../images/s_bg_03.gif">&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="75" background="../images/s_bg_04.gif">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td background="../images/s_bg_05.gif">&nbsp;</td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+    <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="621" background="../images/main_bg_02.gif">&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td valign="top">{#inc_copy}</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

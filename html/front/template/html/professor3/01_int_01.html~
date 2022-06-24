@@ -1,0 +1,239 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{C.SANGHO}</title>
+<link href="../../css.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="flash.js"></script>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#apDiv1 {
+	position:absolute;
+	left:72px;
+	top:28px;
+	width:840px;
+	height:70px;
+	z-index:1;
+}
+-->
+</style>
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+</script>
+</head>
+
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><table width="1000" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="72">&nbsp;</td>
+            <td width="840"><table width="840" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="28" align="right" valign="bottom">{#inc_top}</td>
+              </tr>
+              <tr>
+                <td height="197">{#inc_img}</td>
+              </tr>
+            </table></td>
+            <td width="88">&nbsp;</td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td><table width="1000"height="100%"  border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="72" valign="top"><table width="72" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="179" background="../../images/pro3/left_back.gif">&nbsp;</td>
+              </tr>
+            </table></td>
+            <td width="840" valign="top"><table width="840" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="18" background="../../images/pro3/con_top.gif"></td>
+              </tr>
+              <tr>
+                <td background="../../images/pro3/con_mid.gif"><table width="840" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="212" align="center" valign="top">{#inc_m}</td>
+                    <td align="center" valign="top"><table width="581" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="36" background="../../images/pro3/title_back.gif"><img src="../../images/pro3/tit01_01.gif" width="216" height="36"></td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td valign="top"><table width="581" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td width="284" valign="top"><img src="../../images/pro3/s01_01img01.gif" width="284" height="350"></td>
+                            <td><table width="297" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td height="25"><img src="../../images/pro3/s01_01tit01.gif" width="32" height="15"></td>
+                              </tr>
+                              <tr>
+                                <td height="25" class="text06"><img src="../../images/pro3/icon01.gif" width="10" height="10">권순각</td>
+                              </tr>
+                              <tr>
+                                <td height="5"></td>
+                              </tr>
+                              <tr>
+                                <td height="25"><img src="../../images/pro3/s01_01tit02.gif" width="32" height="15"></td>
+                              </tr>
+                              <tr>
+                                <td class="text05"><table width="297" border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+                                    <td height="20" class="text05"><img src="../../images/pro3/icon01.gif" width="10" height="10">1992.3 - 1998.2 <br>
+&nbsp;                                      한국과학기술원        전기및전자공학 (공학박사) </td>
+                                  </tr>
+                                  <tr>
+                                    <td height="20" class="text05"><img src="../../images/pro3/icon01.gif" width="10" height="10"></span>1998.9 - 2001.2 <br>
+&nbsp;                                      기술신용보증기금       팀장 </td>
+                                  </tr>
+                                  <tr>
+                                    <td height="20" class="text05"><img src="../../images/pro3/icon01.gif" width="10" height="10"></span>2003.9 - 2004.8        <br>
+&nbsp;                                      텍사스 주립대 (알링턴 소재) 방문교수 </td>
+                                  </tr>
+								  <tr>
+                                    <td height="20" class="text05"><img src="../../images/pro3/icon01.gif" width="10" height="10"></span>2010.9 ~ 2011.8        <br>
+&nbsp;                                      Massey University 방문교수 </td>
+                                  </tr>
+                                  <tr>
+                                    <td height="20" class="text05"><img src="../../images/pro3/icon01.gif" width="10" height="10"></span>2001.3 - 현재 동의대학교 <br>
+&nbsp;                                      ICT공과대학       컴퓨터소프트웨어공학과 교수 </td>
+                                  </tr>
+                                  
+                                </table></td>
+                              </tr>
+                              <tr>
+                                <td height="5"></td>
+                              </tr>
+                              <tr>
+                                <td height="25"><img src="../../images/pro3/s01_01tit07.gif" width="49" height="15"></td>
+                              </tr>
+                              <tr>
+                                <td class="text05"><table width="297" border="0" cellspacing="0" cellpadding="0" height="362">
+								<tr>
+                                                                                                        <td class="text05" height="36">
+                                                                                                            <p><img src="../../images/pro3/icon01.gif" width="10" height="10">Marquis Who's Who in the World <br>&nbsp;&nbsp;2010년, 2011년, 2012년, 2013년, 2014년, 2015년 &nbsp;&nbsp;&nbsp;인명사전 등재</p>
+                                                                                                        </td>
+	
+								</tr>
+								<tr>
+								  <td class="text05"><img src="../../images/pro3/icon01.gif" width="10" height="10">Plato Award for Educational Achievement, IBC, <br>&nbsp;&nbsp;2009년 10월</td>
+	
+								</tr>
+								<tr>
+								  <td class="text05"><img src="../../images/pro3/icon01.gif" width="10" height="10">2009 Man of the Year - South Korea, ABI, <br>&nbsp;&nbsp;2009년 3월</td>
+	
+								</tr>
+                                  <tr>
+                                    <td class="text05"><img src="../../images/pro3/icon01.gif" width="10" height="10">2009~2010년 IBC ‘21세기 탁월한 지식인 2000명’ <br>
+&nbsp;                                      (2000 Outstanding Intellectuals of the 21st Century)<br>
+&nbsp; 2009/2010년판 등재 </td>
+                                  </tr>
+                         
+                                  <tr>
+                                    <td class="text05"><img src="../../images/pro3/icon01.gif" width="10" height="10"></span>2008년 5월 IBC 세계선도공학자 <br>
+&nbsp;                                      (Leading Engineers of the World) 수상 </td>
+                                  </tr>
+                                  <tr>
+                                    <td class="text05"><img src="../../images/pro3/icon01.gif" width="10" height="10"></span>2008년 8월 IBC 세계최상위공학자 <br>
+&nbsp;                                      (Foremost Engineers of the World) 수상 </td>
+                                  </tr>
+                                  <tr>
+                                    <td height="20" class="text05"><img src="../../images/pro3/icon01.gif" width="10" height="10">멀티미디어학회 우수논문상(2001년, 2007년, 2013년, 2014년, 2015년)</td>
+                                  </tr>
+                                  <tr>
+                                    <td height="20" class="text05"><img src="../../images/pro3/icon01.gif" width="10" height="10">2013년 7월 한국산학연협회장 표창장</td>
+                                  </tr>
+								   <tr>
+                                    <td height="20" class="text05"><img src="../../images/pro3/icon01.gif" width="10" height="10">2014년 9월 교육부장관 표창장</td>
+                                  </tr>
+                                  
+                                </table></td>
+                              </tr>
+                              <tr>
+                                <td height="5"></td>
+                              </tr>
+                              <tr>
+                                <td height="25"><img src="../../images/pro3/s01_01tit05.gif" width="87" height="15"></td>
+                              </tr>
+                              <tr>
+                                <td height="30" class="text05"><img src="../../images/pro3/icon01.gif" width="10" height="10"></span>멀티미디어 신호 변환 기술<br>
+                                  &nbsp;&nbsp;영상 - &gt; 음성, 음성 -&gt; 영상 </td>
+                              </tr>
+                              <tr>
+                                <td height="30" class="text05"><img src="../../images/pro3/icon01.gif" width="10" height="10">영상 부호화 알고리즘           <br>
+&nbsp;                                  MPEG-4, H.264 </td>
+                              </tr>
+                              <tr>
+                                <td height="30" class="text05"><img src="../../images/pro3/icon01.gif" width="10" height="10">영상 전송 기술           <br>
+&nbsp;                                  비트열 변환 ( Transcoding ) </span></td>
+                              </tr>
+                              <tr>
+                                <td height="15" class="text05"><img src="../../images/pro3/icon01.gif" width="10" height="10">인터넷 영상 응용기술           <br>
+&nbsp;                                  영상 채팅, 영상 회의 </td>
+                              </tr>
+                              <tr>
+                                <td height="30" class="text05"><img src="../../images/pro3/icon01.gif" width="10" height="10">영상 지적 재산권 보호기술           <br>
+&nbsp;                                  디지털 워터마킹 </td>
+                              </tr>
+                              <tr>
+                                <td height="5"></td>
+                              </tr>
+                              <tr>
+                                <td class="text05">&nbsp;</td>
+                              </tr>
+                            </table></td>
+                          </tr>
+                        </table></td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td height="49" background="../../images/pro3/con_bot.gif">&nbsp;</td>
+              </tr>
+            </table>              </td>
+            <td width="88" valign="top"><table width="88" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="179" background="../../images/pro3/right_back.gif">&nbsp;</td>
+              </tr>
+            </table></td>
+          </tr>
+          
+        </table></td>
+      </tr>
+      <tr>
+        <td><table width="1000" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="81">&nbsp;</td>
+            <td>{#inc_copy}</td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>

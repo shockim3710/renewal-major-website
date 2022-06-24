@@ -1,0 +1,108 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="imagetoolbar" content="no" />
+<title>{C.SANGHO}</title>
+<link href="../css.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../flash.js"></script>
+</SCRIPT>
+<style type="text/css">
+<!--
+#menu {
+	position:absolute;
+	width:741px;
+	height:92px;
+	z-index:2;
+}
+#main_img {
+	position:absolute;
+	width:950px;
+	height:341px;
+	z-index:1;
+}
+#man {
+	position:absolute;
+	width:263px;
+	height:440px;
+	z-index:3;
+	left: 316px;
+	top: 94px;
+}
+-->
+</style>
+</head>
+<body>
+<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="950" height="621" valign="top" background="../images/main_bg_01.gif"><table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="76" valign="top">{#inc_top}</td>
+      </tr>
+      <tr>
+        <td height="341" valign="top"><div id="main_img"><script>flash('../images/main_img.swf','950','341');</script>
+          <div id="man">
+            <script>flash('../images/main_img2.swf','263','440');</script>
+          </div>
+        </div>
+          </td>
+      </tr>
+      <tr>
+        <td valign="top"><table width="950" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="21" colspan="7"><img src="../images/m_img_1.gif" width="950" height="21"></td>
+            </tr>
+          <tr>
+            <td width="39" height="124"><img src="../images/m_img_2.gif" width="39" height="124"></td>
+            <td valign="top" bgcolor="#FFFFFF"><table width="282" border="0" cellspacing="0" cellpadding="0">
+              
+              <tr>
+                <td height="31" colspan="3"><a href="05_notice_01.php" onFocus="this.blur();"><img src="../images/m_tit_notice.gif" width="282" height="31" border="0" /></a></td>
+                </tr>
+              <tr>
+                <td height="10"></td>
+                <td width="195"></td>
+                <td width="71"></td>
+              </tr>
+				  <!--{@noticeList}-->
+              <tr>
+                <td width="16"><img src="../images/m_ic_arrow_01.gif" width="16" height="11"></td>
+                <td height="20" class="notice01"><a href="05_notice_01.php?idx={.idx}&act=view">{.subject}</a></td>
+                <td width="80" align="center" class="notice01">{.reg_date}</td>
+              </tr>
+				  <!--{/}-->
+            </table></td>
+            <td width="248" bgcolor="#FFFFFF">&nbsp;</td>
+            <td width="156" valign="top" bgcolor="#FFFFFF"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="24"><a href="06_com_03.php"><img src="../images/m_tit_m.gif" width="134" height="24"></a></td>
+              </tr>
+              <tr>
+                <td height="100"><script>flash('/front/template/images/main_mov.swf','134','100');</script></td>
+              </tr>
+            </table></td>
+            <td width="20" bgcolor="#FFFFFF">&nbsp;</td>
+            <td width="182" valign="top" bgcolor="#FFFFFF"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="182"><a href="09_work.php" onFocus="this.blur();"><img src="../images/m_banner_01.gif" width="182" height="63" border="0" alt="지원사업실적" /></a></td>
+              </tr>
+              <tr>
+                <td><a href="06_com_02.php" onFocus="this.blur();"><img src="../images/m_banner_02.gif" width="182" height="61" border="0" alt="입학Q&A" /></a></td>
+              </tr>
+            </table></td>
+            <td width="23"><img src="../images/m_img_3.gif" width="23" height="124"></td>
+          </tr>
+          <tr>
+            <td height="59" colspan="7" valign="top"><img src="../images/m_img_4.gif" width="950" height="59"></td>
+            </tr>
+        </table></td>
+      </tr>
+    </table></td>
+    <td background="../images/main_bg_02.gif">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">{#inc_copy}</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

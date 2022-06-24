@@ -1,0 +1,280 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="imagetoolbar" content="no" />
+<title>{C.SANGHO}</title>
+<link href="../css.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../flash.js"></script>
+</SCRIPT>
+<style type="text/css">
+<!--
+#menu {
+	position:absolute;
+	width:741px;
+	height:92px;
+	z-index:2;
+}
+#main_img {
+	position:absolute;
+	width:950px;
+	height:341px;
+	z-index:1;
+}
+#sub_img {
+	position:absolute;
+	width:950px;
+	height:186px;
+	z-index:1;
+}
+-->
+</style>
+</head>
+<body>
+<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="950" height="621" valign="top"><table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="261" valign="top" background="../images/s_bg_01.gif"><table width="950" height="261" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="76" valign="top">{#inc_top}</td>
+          </tr>
+          <tr>
+            <td height="186" valign="top">{#inc_sub_img}</td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td valign="top"><table width="950" height="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="210" valign="top">{#inc_sm}</td>
+            <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td background="../images/s_bg_02.gif">&nbsp;</td>
+                <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="336" height="29"><img src="../images/sub11.gif" width="99" height="30"></td>
+                      <td width="321" align="right" class="textnavi">HOME &gt; 사이트맵 </td>
+                      <td width="10" class="textnavi">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td height="1" colspan="3" bgcolor="d0e4f0"></td>
+                    </tr>
+                    <tr>
+                      <td height="20" colspan="3" ></td>
+                    </tr>
+                </table></td>
+                <td background="../images/s_bg_03.gif">&nbsp;</td>
+              </tr>
+              <tr>
+                <td width="40" height="400" background="../images/s_bg_02.gif">&nbsp;</td>
+                <td align="center" valign="top"><table width="600" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="185"><img src="../images/site_tit01.gif" width="171" height="28"></td>
+                    <td width="15">&nbsp;</td>
+                    <td width="185"><img src="../images/site_tit02.gif" width="171" height="28"></td>
+                    <td width="15">&nbsp;</td>
+                    <td width="218"><img src="../images/site_tit03.gif" width="171" height="28"></td>
+                  </tr>
+                  <tr>
+                    <td height="30" valign="top" class="text07"><table width="185" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="25" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="01_intro_01.php">학과장인사말</a></td>
+                      </tr>
+                      <tr>
+                        <td height="25" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="01_intro_02.php">학과연혁</a></td>
+                      </tr>
+                      <tr>
+                        <td height="25" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="01_intro_03.php">교육목표</a></td>
+                      </tr>
+                      <tr>
+                        <td height="25" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="01_intro_04.php">교육환경</a></td>
+                      </tr>
+
+                    </table></td>
+                    <td>&nbsp;</td>
+                    <td valign="top"><table width="185" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="25" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="02_abeek_01.php">개요</a></td>
+                      </tr>
+                      <tr>
+                        <td height="25" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="02_abeek_02.php">예비지식</a></td>
+                      </tr>
+                      <tr>
+                        <td height="25" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="02_abeek_03.php">교육목표</a></td>
+                      </tr>
+                      <tr>
+                        <td height="25" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="02_abeek_04.php">프로그램 내규</a></td>
+                      </tr>
+                      <tr>
+                        <td height="25" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="02_abeek_05.php">학습성과</a></td>
+                      </tr>
+                      <tr>
+                        <td height="25" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="02_abeek_06.php">교과목 이수체계</a></td>
+                      </tr>
+                      <tr>
+                        <td height="25" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="02_abeek_07.php">위원회</a></td>
+                      </tr>
+                      <tr>
+                        <td height="25" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="02_abeek_08.php">인증기준(KEC2005)</a></td>
+                      </tr>
+                      <tr>
+                        <td height="10" class="text07"></td>
+                      </tr>
+                    </table></td>
+                    <td>&nbsp;</td>
+                    <td valign="top"><table width="185" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="25" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="03_course_01.php">학년별교과정</a></td>
+                      </tr>
+                      <tr>
+                        <td height="25" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="03_course_02.php">교과목개요</a></td>
+                      </tr>
+                      <tr>
+                        <td height="25" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="03_course_03.php">학과과정 연계표</a></td>
+                      </tr>
+
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td><img src="../images/site_tit04.gif" width="171" height="28"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="../images/site_tit05.gif" width="171" height="28"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="../images/site_tit06.gif" width="171" height="28"></td>
+                  </tr>
+                  <tr>
+                    <td valign="top"><table width="185" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="25" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="04_pro_01.php">전임교수</a></td>
+                      </tr>
+                      <tr>
+                        <td height="25" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="04_pro_02.php">겸임교원/초빙교원</a></td>
+                      </tr>
+                      <tr>
+                        <td height="10" class="text07"></td>
+                      </tr>
+
+                    </table></td>
+                    <td>&nbsp;</td>
+                    <td valign="top"><table width="185" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="25" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="05_notice_01.php">공지사항</a></td>
+                      </tr>
+                      <tr>
+                        <td height="25" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="05_notice_02.php">자료실</a></td>
+                      </tr>
+                    </table></td>
+                    <td>&nbsp;</td>
+                    <td valign="top"><table width="185" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="25" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="06_com_01.php">자유게시판</a></td>
+                      </tr>
+                      <tr>
+                        <td height="25" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="06_com_02.php">입학Q&A </a></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td><img src="../images/site_tit07.gif" width="171" height="28"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="../images/site_tit08.gif" width="171" height="28"></td>
+                    <td>&nbsp;</td>
+                    <td><img src="../images/site_tit10.gif" width="171" height="28"></td>
+                  </tr>
+                  <tr>
+                    <td valign="top"><table width="185" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="25" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="07_ent_01.php">장학혜택</a></td>
+                      </tr>
+                      <tr>
+                        <td height="25" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="07_ent_02.php">입학안내</a></td>
+                      </tr>
+                    </table></td>
+                    <td>&nbsp;</td>
+                    <td valign="top"><table width="185" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="25" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="08_job_01.php">졸업후진로</a></td>
+                      </tr>
+                      <tr>
+                        <td height="25" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="08_job_02.php">취업실적</a></td>
+                      </tr>
+                    </table></td>
+                    <td>&nbsp;</td>
+                    <td><table width="218" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+                        <td height="35" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="09_work_13.php">2010년<br /><span style="padding-left: 20px; letter-spacing: -1px;">대학IT역량강화(NEXT)사업 선정</span></a></td><!-- 수정해야함 -->
+                      </tr>
+                      <tr>
+                        <td height="35" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="09_work_12.php">2009년 정보통신부 <br><span style="padding-left: 20px; letter-spacing: -1px;">대학(IT)역량강화(NEXT)사업 선정</span></a></td>
+                      </tr>
+                      <tr>
+                        <td height="35" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="09_work_01.php">2008년 정보통신부 <br><span style="padding-left: 20px; letter-spacing: -1px;">대학(IT)역량강화(NEXT)사업 선정</span></a></td>
+                      </tr>
+                      <tr>
+                        <td height="35" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="09_work_11.php">2007년 산업자원부<br><span style="padding-left: 20px; letter-spacing: -1px;">공학교육과정개편지원사업 선정</span></a></td>
+                      </tr>
+                      <tr>
+                        <td height="35" class="text07"><p><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="09_work_02.php">2006년 산업자원부<br><span style="padding-left: 20px; letter-spacing: -1px;">공학교육과정개편지원사업 선정</span></a></p></td>
+                      </tr>
+                      <tr>
+                        <td height="35" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="09_work_03.php">2005년 산업자원부 <br><span style="padding-left: 20px; letter-spacing: -1px;">공학CEO공학교육지원사업 선정</span></a></td>
+                    </tr>
+                      <tr>
+                        <td height="35" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="09_work_04.php">2005년 정보통신부<br><span style="padding-left: 20px; letter-spacing: -1px;">IT교수요원초빙지원사업 선정</span></a></td>
+                      </tr>
+                      <tr>
+                        <td height="35" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="09_work_05.php">2004년 산업자원부<br><span style="padding-left: 20px; letter-spacing: -1px;">공학CEO공학교육지원사업 선정</span></a></td>
+                      </tr>
+                      <tr>
+                        <td height="35" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="09_work_06.php">2003년 정보통신부<br><span style="padding-left: 20px; letter-spacing: -1px;">IT학과장비지원사업 선정</span></a></td>
+                      </tr>
+                      <tr>
+                        <td height="35" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="09_work_07.php">2003년 정보통신부 <br><span style="padding-left: 20px; letter-spacing: -1px;">IT교수요원초빙지원사업 선정</span></a></td>
+                      </tr>
+                      <tr>
+                        <td height="35" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="09_work_08.php">2003년 산업자원부 <br><span style="padding-left: 20px; letter-spacing: -1px;">CEO공학교육지원사업 선정</span></a></td>
+                      </tr>
+					  <tr>
+                        <td height="35" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="09_work_09.php">2002년 정보통신부 <br><span style="padding-left: 20px; letter-spacing: -1px;">IT교수요원초빙지원사업 선정</span></a></td>
+                      </tr>
+					  <tr>
+                        <td height="35" class="text07"><img src="../images/icon_02.gif" width="17" height="11">&nbsp;<a href="09_work_10.php">2002년 정보통신부 <br><span style="padding-left: 20px; letter-spacing: -1px;">IT학과장비지원사업 선정</span></a></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                  </tr>
+                </table></td>
+                <td width="33" background="../images/s_bg_03.gif">&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="75" background="../images/s_bg_04.gif">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td background="../images/s_bg_05.gif">&nbsp;</td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+    <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="621" background="../images/main_bg_02.gif">&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td valign="top">{#inc_copy}</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

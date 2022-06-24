@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>다양한 계산이 가능한 계산기</title>
+        <style>
+                #LeftSite {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        float: left;
+        width: 50%;
+        height: 100%;
+    }    
+    #LeftSite > div {
+        border: 3px solid gray;        
+    }
+    #RightSite {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+    #RightSite > div {
+        border: 3px solid gray;
+        border-left: 0px solid gray;
+    }
+
+            h2 {
+                text-align: center;
+            }
+            input {
+                text-align: right;
+                border: none;
+            }
+            input:focus {
+                outline: none;
+            }
+            table {
+                border-collapse: collapse;
+            }
+            td {
+                padding: 5px 10px;
+                text-align: center;
+            }
+        </style>
+        <script>
+            var check = false;
+            var operator = ['+','-','/','*','%'];
+            
+            function inputValue(word) {
+                if(check == false) { //앞글자가 기호인 경우
+                    if(operator.includes(word)) {
+                        var showValue = document.getElementById('showValue') //사용자 입력값
+                        showValue.value = (showValue.value).slice(0,-1); //기호가 2번 입력되면, 처음 기호를 자름
+                        document.getElementById('showValue').value += word;
+                    } else {
+                        var showValue = document.getElementById('showValue') //숫자일 때
+                        document.getElementById('showValue').value += word;
+                    }
+                } else {
+                    document.getElementById('showValue').value += word; //앞글자가 숫자인 경우
+                }
+                if(operator.includes(word)) { //문자일 때
+                    check = false;
+                } else { //숫자일 때
+                    check = true;
+                }
+            }
+
+            function calculate() {
+                var showValue = document.getElementById('showValue');
+                var result = eval(showValue.value);
+                document.getElementById('result').value = result;
+
+                const history = showValue.value + " = " + result;
+                const li = document.createElement("li");
+                li.setAttribute('id',history);
+                const historyText = document.createTextNode(history);
+                li.appendChild(historyText);
+                document.getElementById('history').prepend(li);
+
+                var element = document.getElementById('history');
+                var eleCount = element.childElementCount;
+
+                if(eleCount>10) {
+                    element.removeChild(element.childNodes[10]);
+                }
+
+            }
+
+            function clearAll() {
+                document.getElementById('showValue').value = "";
+                document.getElementById('result').value = "";
+            }
+            
+            function delLast() {
+                var showValue = document.getElementById('showValue')
+                showValue.value = (showValue.value).slice(0,-1);
+                document.getElementById('result').value = "";
+            }
+
+            function clearHistory() {
+                var element = document.getElementById('history');
+                var eleCount = element.childElementCount;
+                for(var i=0; i<=eleCount; i++) {
+                    element.removeChild(element.childNodes[0]);
+                }
+            }
+
+            function deleteHistory() {
+                var element = document.getElementById('history');
+                var eleCount = element.childElementCount;
+                element.removeChild(element.childNodes[eleCount-1]);
+            }
+        </script>
+    </head>
+
+    <body>
+        <div id="LeftSite">
+            
+            <table border="1">
+                <tr>
+                    <td colspan="4">
+                        <input type="text" id="showValue">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <input type="text" id="result">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" onclick="clearAll()">AC</td>
+                    <td onclick="delLast()">D</td>
+                </tr>
+                <tr>
+                    <td onclick="inputValue('(')">(</td>
+                    <td onclick="inputValue(')')">)</td>
+                    <td onclick="inputValue('%')">%</td>
+                    <td onclick="inputValue('/')">/</td>
+                </tr>
+                <tr>
+                    <td onclick="inputValue(7)">7</td>
+                    <td onclick="inputValue(8)">8</td>
+                    <td onclick="inputValue(9)">9</td>
+                    <td onclick="inputValue('*')">*</td>
+                </tr>
+                <tr>
+                    <td onclick="inputValue(4)">4</td>
+                    <td onclick="inputValue(5)">5</td>
+                    <td onclick="inputValue(6)">6</td>
+                    <td onclick="inputValue('-')">-</td>
+                </tr>
+                <tr>
+                    <td onclick="inputValue(1)">1</td>
+                    <td onclick="inputValue(2)">2</td>
+                    <td onclick="inputValue(3)">3</td>
+                    <td onclick="inputValue('+')">+</td>
+                </tr>
+                <tr>
+                    <td colspan="2" onclick="inputValue(0)">0</td>
+                    <td onclick="inputValue('.')">.</td>
+                    <td onclick="calculate()">=</td>
+                </tr>
+            </table>
+
+        </div>
+
+        </div>
+        <div id="RingtSite">
+        <div style="width:2%;float:left;">&nbsp;</div>
+        <div style="width:20%;float:left;padding:10px;border-style:groove;">
+            
+            <h2>계산 기록</h2>
+            <table border="1" align="center">
+                <tr>
+                    <td onclick="clearHistory()">Clear</td>
+                    <td onclick="deleteHistory()">Delete</td>
+                </tr>
+            </table>
+            <ol style="list-style-type:none"id='history'></ol>
+        </div>
+    </div>
+    </body>
+</html>

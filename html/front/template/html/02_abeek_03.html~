@@ -1,0 +1,383 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="imagetoolbar" content="no" />
+<title>{C.SANGHO}</title>
+<link href="/front/template/css.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/front/template//flash.js"></script>
+
+<style type="text/css">
+<!--
+#menu {
+	position:absolute;
+	width:741px;
+	height:92px;
+	z-index:2;
+}
+#main_img {
+	position:absolute;
+	width:950px;
+	height:341px;
+	z-index:1;
+}
+#sub_img {
+	position:absolute;
+	width:950px;
+	height:186px;
+	z-index:1;
+}
+-->
+</style>
+</head>
+<body>
+<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="950" height="621" valign="top"><table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="261" valign="top" background="/front/template/images/s_bg_01.gif"><table width="950" height="261" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="76" valign="top">{#inc_top}</td>
+          </tr>
+          <tr>
+            <td height="186" valign="top">{#inc_sub_img}</td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td valign="top"><table width="950" height="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="210" valign="top">{#inc_sm}</td>
+            <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td background="/front/template/images/s_bg_02.gif">&nbsp;</td>
+                <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="336" height="29"><img src="/front/template/images/tit_02_03.gif" width="104" height="29"></td>
+                      <td width="321" align="right" class="textnavi">HOME &gt; 공학인증 &gt; 교육목표</td>
+                      <td width="10" class="textnavi">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td height="1" colspan="3" bgcolor="d0e4f0"></td>
+                    </tr>
+                    <tr>
+                      <td height="20" colspan="3"></td>
+                    </tr>
+                </table></td>
+                <td background="/front/template/images/s_bg_03.gif">&nbsp;</td>
+              </tr>
+              <tr>
+                <td width="40" height="400" background="/front/template/images/s_bg_02.gif">&nbsp;</td>
+                <td valign="top"><table width="666" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td><img src="/front/template/images/sub02_03title01.gif" width="150" height="18"></td>
+                  </tr>
+                  <tr>
+                    <td><table width="666" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="10" colspan="3"></td>
+                        </tr>
+                      <tr>
+                        <td width="30">&nbsp;</td>
+                        <td class="tvdate">동의대학교 공과대학은 진리, 정의 창의정신을 바탕으로, 기초과학과 공학기반 교육 및 교양교육과 인성교육의 토대위에서 지식정보화사회와 고도산업기술사회가 요구하는 최신 공학이론과 실험실습을 결합한 공학교육을 실시하며 건전한 윤리 의식과 책임 의식을 고취시켜, 창의적인 기술 개발 능력과 응용 능력을 발휘하고 지역사회와 국가의 산업 발전을 선도하고 인류사회의 번영에 이바지하며 급변하는 정보화.국제화에 능동적으로 대처할 수 있는 전문 기술인의 양성을 교육목표로
+한다</td>
+                        <td width="30" class="tvdate">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                        <td colspan="2" class="text04"><br>
+                          1. 기초과학과 공학기반 교육: 풍부한 기초과학 및 공학기반 교육으로 전공 응용 능력 배양 <br>
+                          <br>
+                          2. 현장중심의 창의적 기술인: 산업현장 중심의 실무 교육으로 폭 넓은 적응 능력을 갖춘 전문 지식인 양성 <br>
+                          <br>
+                          3. 책임감 있는 건전한 사회인: 인성교육을 토대로 윤리의식과 책임의식을 갖춘 건전한 사회인 양성 <br>
+                          <br>
+                          4. 지역 및 국가산업을 선도하는 지도자: 국제 정보화 사회에서 지역과 국가산업 발전에 선도적역할을  수행할 수 있는 전문 지도자 양성 </td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td><img src="/front/template/images/sub02_03title02.gif" width="200" height="18"></td>
+                  </tr>
+                  <tr>
+                    <td><table width="666" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="10" colspan="2"></td>
+                      </tr>
+                      <tr>
+                        <td width="30">&nbsp;</td>
+                        <td class="tvdate">컴퓨터소프트웨어공학과는 인터넷, 정보보호, 멀티미디어 처리, 소프트웨어공학, 임베디드 소프트웨어 등 다양한 컴퓨터 소프트웨어에 대한 폭넓은 이해를 위해 기초과학, 컴퓨터 소프트웨어 공학 기술, 소프트웨어 도구 활용 능력을 바탕으로 한 공학 기초 능력과 도구 활용 능력을 배양하고 습득한 지식과 창의적인 사고를 발휘하여 다양한 공학 분야에 응용할 수 있고, 종합적으로 설계할 수 있는 능력을 배양함과 동시에 관련 산업체와 연구기관 등에서
+필요로 하는 실무
+수행 능력과 효과적으로 의사를 전달 할 수 있는 능력을 배양하고 건전한 윤리의식과 책임의식을 바탕으로 국제화 시대를 이끌어 나갈 능력을 갖춘 능동적이고 창의적인 컴퓨터 소프트웨어 전문 기술 인력 양성을 교육목표로 한다.</td></tr>
+<td width="30" class="tvdate">&nbsp;</td>
+
+<tr>
+<td width="30">&nbsp;</td>
+<td colspan="2" class="text04">
+                                                                       
+                                                                        <p>
+
+본 프로그램의 교육목표는 네 가지 세부 교육목표로 이루어지며 각 세부 교육목표에서 추구하는 방향은 다음과 같다.</p>
+                                                                        <p><b>가. 공학 기초 능력과 도구 활용 능력 배양
+</b></p>
+                                                                        <p>1) 세부 교육목표</p>
+<p>기초과학, 컴퓨터 소프트웨어 공학 기술, 소프트웨어 도구 활용 능력을 바탕으로 한 공학 기초 능력과 도구 활용 능력 배양
+</p>
+                                                                        <p>2) 추구방향</p> 
+<p>본 프로그램 소속 학생은 기초과학의 중요한 이론을 이해하고, 컴퓨터소프트웨어공학 전공과 관련된 다양한 도구를 습득함으로써, 기초과학을 바탕으로 체계적인 전공능력을 향상시킬 수 있으며, 능숙한 전공 도구 활용을 바탕으로 실무능력을 향상시킬 수 있다. 
+
+</p>
+                                                                        <p><b>나. 응용 능력과 설계 능력 배양
+</b></p>
+                                                                        <p>1) 세부 교육목표</p>
+<p>습득한 지식을 응용하고 창의적인 사고를 발휘하여 다양한 공학 분야에 응용할 수 있고, 종합적으로 설계할 수 있는 능력 배양</p>
+                                                                        <p>
+2) 추구방향</p> 
+<p>본 프로그램 소속 학생은 컴퓨터 하드웨어, 컴퓨터 소프트웨어, 컴퓨터 시스템과 관련된 구성요소에 대하여 설계 요소를 이해하고, 제시된 문제에 대한 현실적 해결방안을 도출하고 해결함으로써, 컴퓨터소프트웨어공학과 관련된 다양한 공학적 문제해결 능력을 향상시킬 수 있으며, 설계 구성요소 및 제한요소 등에 대한 인식을 바탕으로 체계적인 설계능력을 향상시킬 수 있다.</p>
+                                                                        <p><b>다. 실무 능력과 의사 전달 능력 배양</b></p>
+                                                                        <p>1) 세부 교육목표</p>
+<p>관련 산업체와 연구기관 등에서 필요한 실무 수행 능력과 효과적인으로 의사를 전달 할 수 있는 능력 배양
+</p>
+                                                                        <p>2) 추구방향</p>
+<p>본 프로그램 소속 학생은 컴퓨터소프트웨어공학 전공과 관련하여 실험을 계획하고 실험결과에 대하여 종합적으로 분석하며, 객관적 사실에 근거하여 논리적으로 실무 수행 절차를 표현함으로써, 실무적 현장에 적응하는 실무능력을 향상시킬 수 있으며, 실무를 통해 인식한 다양한 실무지식을 타인에게 효과적으로 전달하는 의사전달능력을 향상시킬 수 있다.
+
+</p>
+                                                                        <p><b>라. 책임의식과 국제화 능력 배양
+</b></p>
+                                                                        <p>1) 세부 교육목표</p>
+<p>건전한 윤리적 사고와 책임의식을 바탕으로 국제화 시대를 이끌어 나갈 능력 배양
+</p>
+                                                                        <p>2) 추구방향</p>
+<p>본 프로그램 소속 학생은 정보 윤리와 직업적 책임의 필요성을 인식하고 외국어로 전공 지식을 논리적으로 표현함으로써, 지역사회 및 국가에 이바지하기 위한 책임의식을 배양시킬 수 있으며, 국제적 공학도로서 윤리적 사고와 직업적 책임의식을 배양시킬 수 있다.
+</p>
+                                                                    </td>
+                      </tr>
+
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td><img src="/front/template/images/sub02_03title03.gif" width="300" height="18"></td>
+                  </tr>
+                  <tr>
+                    <td><table width="666" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="10" colspan="2"></td>
+                      </tr>
+                      <tr>
+                        <td width="30">&nbsp;</td>
+                        <td class="text04"><table width="600" border="0" cellpadding="0" cellspacing="1" bgcolor="#999999">
+                          <TR borderColor="#000099" bgColor="#b8e1f8">
+                            <TD colSpan="2" rowspan="2" align="center" bordercolor="#000099" bgcolor="#E4EFF6"><strong class="text07">교육목표</strong></TD>
+                            <TD height="20" colSpan="4" align="center" bordercolor="#000099" bgcolor="#E4EFF6" class="text09">컴퓨터소프트웨어공학 교육목표</TD>
+                            </TR>
+                          <TR borderColor="#000099" bgColor="#b8e1f8">
+                            <TD align="center" bordercolor="#000099" bgcolor="#E4EFF6" class="text09">기초과학과<BR>
+공학기술 배양</TD>
+                            <TD align="center" bordercolor="#000099" bgcolor="#E4EFF6" class="text09">응용능력과<BR>
+설계능력 배양</TD>
+                            <TD align="center" bordercolor="#000099" bgcolor="#E4EFF6" class="text09">실무능력과<BR>
+의사전달능력 배양</TD>
+                            <TD align="center" bordercolor="#000099" bgcolor="#E4EFF6" class="text09">윤리의식과<BR>
+책임의식 배양</TD>
+                          </TR>
+                          <TR borderColor="#000099">
+                            <TD rowSpan="4" align="center" bgcolor="#FFFFFF"> 공과<br>
+                              대학 </TD>
+                            <TD height="40" bgcolor="#FFFFFF"><p align="center"> 기초과학과<br>
+                              공학기반 교육 </p></TD>
+                            <TD align="center" bgcolor="#FFFFFF">강</TD>
+                            <TD align="center" bgcolor="#FFFFFF">약</TD>
+                            <TD align="center" bgcolor="#FFFFFF">약</TD>
+                            <TD align="center" bgcolor="#FFFFFF"> 약 </TD>
+                          </TR>
+                          <TR borderColor="#000099">
+                            <TD height="40" bgcolor="#FFFFFF"><p align="center">현장중심의<BR>
+                              창의적 기술인</p></TD>
+                            <TD align="center" bgcolor="#FFFFFF"> 중 </TD>
+                            <TD align="center" bgcolor="#FFFFFF">강</TD>
+                            <TD align="center" bgcolor="#FFFFFF">강</TD>
+                            <TD align="center" bgcolor="#FFFFFF"> 중 </TD>
+                          </TR>
+                          <TR borderColor="#000099">
+                            <TD height="40" bgcolor="#FFFFFF"><p align="center">책임감 있는<BR>
+                              건전한 사회인</p></TD>
+                            <TD align="center" bgcolor="#FFFFFF"> 약 </TD>
+                            <TD align="center" bgcolor="#FFFFFF">중</TD>
+                            <TD align="center" bgcolor="#FFFFFF">중</TD>
+                            <TD align="center" bgcolor="#FFFFFF">강</TD>
+                          </TR>
+                          <TR borderColor="#000099">
+                            <TD height="40" bgcolor="#FFFFFF"><p align="center">지역 및 국가산업을<BR>
+                              선도하는 지도자</p></TD>
+                            <TD align="center" bgcolor="#FFFFFF"> 중 </TD>
+                            <TD align="center" bgcolor="#FFFFFF"> 중 </TD>
+                            <TD align="center" bgcolor="#FFFFFF"> 강 </TD>
+                            <TD align="center" bgcolor="#FFFFFF"> 강 </TD>
+                          </TR>
+                        </table>                        </td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td><img src="/front/template/images/sub02_03title04.gif" width="300" height="18"></td>
+                  </tr>
+                  <tr>
+                    <td><table width="666" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="10" colspan="2"></td>
+                      </tr>
+                      <tr>
+                        <td width="30">&nbsp;</td>
+                        <td class="text04"><table width="600" border="0" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
+                          <TR borderColor="#000099" bgColor="#b8e1f8">
+                            <TD width="182" rowspan="3" align="center" bgcolor="#E4EFF6" class="text07" title="아래쪽 교육목표, 오른쪽 학습성과"><strong>교육목표</strong></TD>
+                            <TD height="20" colspan="12" align="center" bgcolor="#E4EFF6" class="text09" title="[학습성과 1] 수학, 기초과학, 전문교양에서 습득한 이론과 지식을 전공에 응용할 수 있는 능력">학습성과</TD>
+                          </TR>
+                          <TR borderColor="#000099" bgColor="#b8e1f8">
+                            <TD width="30" height="20" align="center" bgcolor="#E4EFF6" class="text09" title="[학습성과 1] 수학, 기초과학, 전문교양에서 습득한 이론과 지식을 전공에 응용할 수 있는 능력">1</TD>
+                            <TD width="30" align="center" bgcolor="#E4EFF6" class="text09" title="[학습성과 1] 수학, 기초과학, 전문교양에서 습득한 이론과 지식을 전공에 응용할 수 있는 능력">2</TD>
+                            <TD width="30" align="center" bgcolor="#E4EFF6" class="text09" title="[학습성과 1] 수학, 기초과학, 전문교양에서 습득한 이론과 지식을 전공에 응용할 수 있는 능력">3</TD>
+                            <TD width="30" align="center" bgcolor="#E4EFF6" class="text09" title="[학습성과 1] 수학, 기초과학, 전문교양에서 습득한 이론과 지식을 전공에 응용할 수 있는 능력">4</TD>
+                            <TD width="30" align="center" bgcolor="#E4EFF6" class="text09" title="[학습성과 1] 수학, 기초과학, 전문교양에서 습득한 이론과 지식을 전공에 응용할 수 있는 능력">5</TD>
+                            <TD width="30" align="center" bgcolor="#E4EFF6" class="text09" title="[학습성과 1] 수학, 기초과학, 전문교양에서 습득한 이론과 지식을 전공에 응용할 수 있는 능력">6</TD>
+                            <TD width="30" align="center" bgcolor="#E4EFF6" class="text09" title="[학습성과 1] 수학, 기초과학, 전문교양에서 습득한 이론과 지식을 전공에 응용할 수 있는 능력">7</TD>
+                            <TD width="30" align="center" bgcolor="#E4EFF6" class="text09" title="[학습성과 1] 수학, 기초과학, 전문교양에서 습득한 이론과 지식을 전공에 응용할 수 있는 능력">8</TD>
+                            <TD width="30" align="center" bgcolor="#E4EFF6" class="text09" title="[학습성과 1] 수학, 기초과학, 전문교양에서 습득한 이론과 지식을 전공에 응용할 수 있는 능력">9</TD>
+                            <TD width="30" align="center" bgcolor="#E4EFF6" class="text09" title="[학습성과 1] 수학, 기초과학, 전문교양에서 습득한 이론과 지식을 전공에 응용할 수 있는 능력">10</TD>
+                            <TD width="30" align="center" bgcolor="#E4EFF6" class="text09" title="[학습성과 1] 수학, 기초과학, 전문교양에서 습득한 이론과 지식을 전공에 응용할 수 있는 능력">11</TD>
+                            <TD width="30" align="center" bgcolor="#E4EFF6" class="text09" title="[학습성과 1] 수학, 기초과학, 전문교양에서 습득한 이론과 지식을 전공에 응용할 수 있는 능력">12</TD>
+                          </TR>
+                          <TR borderColor="#000099" bgColor="#b8e1f8">
+                            <TD height="40" align="center" bgcolor="#E4EFF6" class="text09">지식<br>
+                              응용</TD>
+                            <TD align="center" bgcolor="#E4EFF6" class="text09">과제<br>
+                              관리</TD>
+                            <TD align="center" bgcolor="#E4EFF6" class="text09">설계<br>
+                              구현</TD>
+                            <TD align="center" bgcolor="#E4EFF6" class="text09">문제<br>
+                              해결</TD>
+                            <TD align="center" bgcolor="#E4EFF6" class="text09">실무<br>
+                              도구</TD>
+                            <TD align="center" bgcolor="#E4EFF6" class="text09">팀웍<br>
+                              능력</TD>
+                            <TD align="center" bgcolor="#E4EFF6" class="text09">의사<br>
+                              전달</TD>
+                            <TD align="center" bgcolor="#E4EFF6" class="text09">평생<br>
+                              교육</TD>
+                            <TD align="center" bgcolor="#E4EFF6" class="text09">사회<br>
+                              영향</TD>
+                            <TD align="center" bgcolor="#E4EFF6" class="text09">시사<br>
+                              지식</TD>
+                            <TD align="center" bgcolor="#E4EFF6" class="text09">직업<br>
+                              윤리</TD>
+                            <TD align="center" bgcolor="#E4EFF6" class="text09">국제<br>
+                              활동</TD>
+                          </TR>
+                          <TR borderColor="#000099">
+                            <TD height="40" bgcolor="#FFFFFF"><p align="left">[교육목표 1]<BR>
+                             공학 기초 능력과 도구 활용 능력 배양</p></TD>
+                            <TD align="center" bgcolor="#FFFFFF">강</TD>
+                            <TD align="center" bgcolor="#FFFFFF">중</TD>
+                            <TD align="center" bgcolor="#FFFFFF">약</TD>
+                            <TD align="center" bgcolor="#FFFFFF">약</TD>
+                            <TD align="center" bgcolor="#FFFFFF">강</TD>
+                            <TD align="center" bgcolor="#FFFFFF"></TD>
+                            <TD align="center" bgcolor="#FFFFFF">　</TD>
+                            <TD align="center" bgcolor="#FFFFFF">　</TD>
+                            <TD align="center" bgcolor="#FFFFFF">약</TD>
+                            <TD align="center" bgcolor="#FFFFFF"></TD>
+                            <TD align="center" bgcolor="#FFFFFF">　</TD>
+                            <TD align="center" bgcolor="#FFFFFF">　</TD>
+                          </TR>
+                          <TR borderColor="#000099">
+                            <TD height="40" bgcolor="#FFFFFF">[교육목표 2] <BR>
+                              응용능력과 설계능력 배양</TD>
+                            <TD align="center" bgcolor="#FFFFFF">약</TD>
+                            <TD align="center" bgcolor="#FFFFFF">약</TD>
+                            <TD align="center" bgcolor="#FFFFFF">강</TD>
+                            <TD align="center" bgcolor="#FFFFFF">강</TD>
+                            <TD align="center" bgcolor="#FFFFFF">약</TD>
+                            <TD align="center" bgcolor="#FFFFFF">강</TD>
+                            <TD align="center" bgcolor="#FFFFFF">　</TD>
+                            <TD align="center" bgcolor="#FFFFFF">　</TD>
+                            <TD align="center" bgcolor="#FFFFFF">　</TD>
+                            <TD align="center" bgcolor="#FFFFFF">　</TD>
+                            <TD align="center" bgcolor="#FFFFFF">　</TD>
+                            <TD align="center" bgcolor="#FFFFFF">　</TD>
+                          </TR>
+                          <TR borderColor="#000099">
+                            <TD height="40" bgcolor="#FFFFFF">[교육목표 3]<BR>
+                              실무능력과 의사전달능력 배양</TD>
+                            <TD align="center" bgcolor="#FFFFFF">　</TD>
+                            <TD align="center" bgcolor="#FFFFFF">약</TD>
+                            <TD align="center" bgcolor="#FFFFFF">약</TD>
+                            <TD align="center" bgcolor="#FFFFFF">　</TD>
+                            <TD align="center" bgcolor="#FFFFFF">강</TD>
+                            <TD align="center" bgcolor="#FFFFFF">중</TD>
+                            <TD align="center" bgcolor="#FFFFFF">강</TD>
+                            <TD align="center" bgcolor="#FFFFFF">약</TD>
+                            <TD align="center" bgcolor="#FFFFFF">약</TD>
+                            <TD align="center" bgcolor="#FFFFFF">중</TD>
+                            <TD align="center" bgcolor="#FFFFFF"></TD>
+                            <TD align="center" bgcolor="#FFFFFF"></TD>
+                          </TR>
+                          <TR borderColor="#000099">
+                            <TD height="40" bgcolor="#FFFFFF">[교육목표 4]<BR>
+                             책임의식과 국제화 능력 배양</TD>
+                            <TD align="center" bgcolor="#FFFFFF"></TD>
+                            <TD align="center" bgcolor="#FFFFFF"></TD>
+                            <TD align="center" bgcolor="#FFFFFF">　</TD>
+                            <TD align="center" bgcolor="#FFFFFF"></TD>
+                            <TD align="center" bgcolor="#FFFFFF">　</TD>
+                            <TD align="center" bgcolor="#FFFFFF"></TD>
+                            <TD align="center" bgcolor="#FFFFFF">　</TD>
+                            <TD align="center" bgcolor="#FFFFFF">중</TD>
+                            <TD align="center" bgcolor="#FFFFFF">중</TD>
+                            <TD align="center" bgcolor="#FFFFFF">약</TD>
+                            <TD align="center" bgcolor="#FFFFFF">강</TD>
+                            <TD align="center" bgcolor="#FFFFFF">강</TD>
+                          </TR>
+                        </table></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                  </tr>
+                </table></td>
+                <td width="33" background="/front/template/images/s_bg_03.gif">&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="75" background="/front/template/images/s_bg_04.gif">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td background="/front/template/images/s_bg_05.gif">&nbsp;</td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+    <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="621" background="/front/template/images/main_bg_02.gif">&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td valign="top">{#inc_copy}</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

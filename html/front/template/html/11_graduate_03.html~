@@ -1,0 +1,412 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="imagetoolbar" content="no" />
+<title>{C.SANGHO}</title>
+<link href="../css.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../flash.js"></script>
+
+<style type="text/css">
+<!--
+#menu {
+	position:absolute;
+	width:741px;
+	height:92px;
+	z-index:2;
+}
+#main_img {
+	position:absolute;
+	width:950px;
+	height:341px;
+	z-index:1;
+}
+#sub_img {
+	position:absolute;
+	width:950px;
+	height:186px;
+	z-index:1;
+}
+-->
+</style>
+</head>
+<body>
+
+<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="950" height="621" valign="top"><table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="261" valign="top" background="../images/s_bg_01.gif"><table width="950" height="261" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="76" valign="top">{#inc_top}</td>
+          </tr>
+          <tr>
+            <td height="186" valign="top">{#inc_sub_img}</td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td valign="top"><table width="950" height="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="210" valign="top">{#inc_sm}</td>
+            <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td background="../images/s_bg_02.gif">&nbsp;</td>
+                <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="336" height="29"></td>
+                      <td width="321" align="right" class="textnavi">HOME &gt; 대학원 &gt; 교육&nbsp;대학원</td>
+                      <td width="10" class="textnavi">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td height="1" colspan="3" bgcolor="d0e4f0"></td>
+                    </tr>
+                    <tr>
+                      <td height="20" colspan="3"></td>
+                    </tr>
+                </table></td>
+                <td background="../images/s_bg_03.gif">&nbsp;</td>
+              </tr>
+              <tr>
+                <td width="40" height="400" background="../images/s_bg_02.gif">&nbsp;</td>
+                <td valign="top"><table width="666" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td><table width="666" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="10" colspan="3"></td>
+                      </tr>
+                      
+                      <tr>
+                        <td>&nbsp;</td>
+
+<table align="center" cellpadding="0" cellspacing="0" width="774" height="840">
+    <tr>
+        <td width="774">
+            <p><span class="style6" style="font-size:16pt;"><b>◆ </b></span><span style="font-size:16pt;"><b>선수과목/공통과목</b></span></p>
+            <p>&nbsp;<span style="font-size:14pt;"><b>선수과목</b></span></p>
+            <table class=content border=0 cellspacing=1 cellpadding=0 width="775" bgcolor=#9d999f height="173">
+                <tr class=style11 align=middle bgcolor=#f9f1ea>
+                    <td width="25%" align="center" bgcolor=#f9f1ea height="35">
+                        <p align="center">전 &nbsp;&nbsp;공</p>
+                    </td>
+                    <td width="66%" align="center" colspan="2" height="35">
+                        <p align="center">석사과정</p>
+                    </td>
+                    <td align="center" width="9%" rowspan="2" height="75">
+                        <p align="center">비고</p>
+                    </td>
+                </tr>
+                <tr class=style11 align=middle bgcolor=#f9f1ea>
+                    <td width="25%" height="37" align="center" bgcolor="#F9F1EA">학과명</td>
+                    <td width="46%" height="37" align="center">교 과 목 명</td>
+                    <td width="19%" height="37" align="center">학 점</td>
+                </tr>
+                <tr bgcolor=#ffffff>
+                    <td height="93" align="center" bgcolor=#ffffff class=td_padding width="25%" rowspan="2">
+                        <p align="center">전 산 교 육</p>
+                    </td>
+                    <td height=23 align="center" bgcolor=#ffffff class=td_padding width="46%">
+                        <p align="center">논리회로</p>
+                    </td>
+                    <td height=23 align="center" width="19%">
+                        <p align="center">3</p>
+                    </td>
+                    <td height="47" bgcolor=#ffffff class=td_padding width="71">
+                        <p align="center">&nbsp;</p>
+                    </td>
+                </tr>
+                <tr bgcolor=#ffffff>
+                    <td height=23 align="center" bgcolor=#ffffff class=td_padding width="46%">
+                        <p align="center">데이터베이스</p>
+                    </td>
+                    <td height=23 align="center" width="19%">
+                        <p align="center">3</p>
+                    </td>
+                    <td width="71" height="47" bgcolor="white" class="td_padding">&nbsp;</td>
+                </tr>
+            </table>
+            <p>&nbsp;&nbsp;<span style="font-size:14pt;"><b>공통과목</b></span></p>
+            <table class=content border=0 cellspacing=1 cellpadding=0 width="774" bgcolor=#9d999f>
+                <tr class=style11 align=middle bgcolor=#f9f1ea>
+                    <td width="22%" align="center" bgcolor=#f9f1ea>
+                        <p align="center">교과목번호</p>
+                    </td>
+                    <td width="43%" align="center">
+                        <p align="center">교 과 목 명</p>
+                    </td>
+                    <td width="17%" align="center">
+                        <p align="center">학 점</p>
+                    </td>
+                    <td align="center" width="17%">
+                        <p align="center">시 간</p>
+                    </td>
+                </tr>
+                <tr bgcolor=#ffffff>
+                    <td height=23 align="center" bgcolor=#ffffff class=td_padding width="22%">
+                        <p align="center">5A6101 </p>
+                    </td>
+                    <td height=23 align="center" bgcolor=#ffffff class=td_padding width="43%">
+                        <p align="center">교육과정과 평가의 기초 </p>
+                    </td>
+                    <td height=23 align="center" width="17%">
+                        <p align="center">2</p>
+                    </td>
+                    <td height=23 bgcolor=#ffffff class=td_padding width="17%">
+                        <p align="center">2</p>
+                    </td>
+                </tr>
+                <tr bgcolor=#ffffff>
+                    <td height=23 align="center" bgcolor=#ffffff class=td_padding width="22%">
+                        <p align="center">5A6105 </p>
+                    </td>
+                    <td height=23 align="center" bgcolor=#ffffff class=td_padding width="43%">
+                        <p align="center">교수학습론 </p>
+                    </td>
+                    <td height=23 align="center" width="17%">
+                        <p align="center">2</p>
+                    </td>
+                    <td height=23 bgcolor=#ffffff class=td_padding width="17%">
+                        <p align="center">2</p>
+                    </td>
+                </tr>
+                <tr bgcolor=#ffffff>
+                    <td width="22%" height="23" align="center" bgcolor="white" class="td_padding">
+                        <p align="center">5A6106 </p>
+                    </td>
+                    <td width="43%" height="23" align="center" bgcolor="white" class="td_padding">
+                        <p align="center">교육과 현대사회 </p>
+                    </td>
+                    <td width="17%" height="23" align="center">
+                        <p align="center">2</p>
+                    </td>
+                    <td width="17%" height="23" bgcolor="white" class="td_padding">
+                        <p align="center">2</p>
+                    </td>
+                </tr>
+                <tr bgcolor=#ffffff>
+                    <td width="22%" height="23" align="center" bgcolor="white" class="td_padding">
+                        <p align="center">5A6107 </p>
+                    </td>
+                    <td width="43%" height="23" align="center" bgcolor="white" class="td_padding">
+                        <p align="center">교수매체활용론 </p>
+                    </td>
+                    <td width="17%" height="23" align="center">
+                        <p align="center">2</p>
+                    </td>
+                    <td width="17%" height="23" bgcolor="white" class="td_padding">
+                        <p align="center">2</p>
+                    </td>
+                </tr>
+            </table>
+            <p>&nbsp;&nbsp;<span style="font-size:14pt;"><b>교직과목</b></span></p>
+            <table class=content border=0 cellspacing=1 cellpadding=0 width="774" bgcolor=#9d999f>
+                <tr class=style11 align=middle bgcolor=#f9f1ea>
+                    <td width="22%" align="center" bgcolor=#f9f1ea>
+                        <p align="center">교과목번호</p>
+                    </td>
+                    <td width="43%" align="center">
+                        <p align="center">교 과 목 명</p>
+                    </td>
+                    <td width="17%" align="center">
+                        <p align="center">학 점</p>
+                    </td>
+                    <td align="center" width="17%">
+                        <p align="center">시 간</p>
+                    </td>
+                </tr>
+                <tr bgcolor=#ffffff>
+                    <td height=23 align="center" bgcolor=#ffffff class=td_padding width="22%">
+                        <p align="center">5A6201 </p>
+                    </td>
+                    <td height=23 align="center" bgcolor=#ffffff class=td_padding width="43%">
+                        <p align="center">교육철학 및 교육사</p>
+                    </td>
+                    <td height=23 align="center" width="17%">
+                        <p align="center">2</p>
+                    </td>
+                    <td height=23 bgcolor=#ffffff class=td_padding width="17%">
+                        <p align="center">2</p>
+                    </td>
+                </tr>
+                <tr bgcolor=#ffffff>
+                    <td height=23 align="center" bgcolor=#ffffff class=td_padding width="22%">
+                        <p align="center">5A6202 </p>
+                    </td>
+                    <td height=23 align="center" bgcolor=#ffffff class=td_padding width="43%">
+                        <p align="center">교육사회 </p>
+                    </td>
+                    <td height=23 align="center" width="17%">
+                        <p align="center">2</p>
+                    </td>
+                    <td height=23 bgcolor=#ffffff class=td_padding width="17%">
+                        <p align="center">2</p>
+                    </td>
+                </tr>
+                <tr bgcolor=#ffffff>
+                    <td width="22%" height="23" align="center" bgcolor="white" class="td_padding">
+                        <p align="center">5A6203 </p>
+                    </td>
+                    <td width="43%" height="23" align="center" bgcolor="white" class="td_padding">
+                        <p align="center">교육행정 및 교육경영 </p>
+                    </td>
+                    <td width="17%" height="23" align="center">
+                        <p align="center">2</p>
+                    </td>
+                    <td width="17%" height="23" bgcolor="white" class="td_padding">
+                        <p align="center">2</p>
+                    </td>
+                </tr>
+                <tr bgcolor=#ffffff>
+                    <td width="22%" height="23" align="center" bgcolor="white" class="td_padding">
+                        <p align="center">5A6204 </p>
+                    </td>
+                    <td width="43%" height="23" align="center" bgcolor="white" class="td_padding">
+                        <p align="center">교육학개론</p>
+                    </td>
+                    <td width="17%" height="23" align="center">
+                        <p align="center">2</p>
+                    </td>
+                    <td width="17%" height="23" bgcolor="white" class="td_padding">
+                        <p align="center">2</p>
+                    </td>
+                </tr>
+                <tr bgcolor=#ffffff>
+                    <td width="22%" height="23" align="center" bgcolor="white" class="td_padding">
+                        <p align="center">5A6205 </p>
+                    </td>
+                    <td width="43%" height="23" align="center" bgcolor="white" class="td_padding">
+                        <p align="center">교육방법 및 교육공학</p>
+                    </td>
+                    <td width="17%" height="23" align="center">
+                        <p align="center">2</p>
+                    </td>
+                    <td width="17%" height="23" bgcolor="white" class="td_padding">
+                        <p align="center">2</p>
+                    </td>
+                </tr>
+                <tr bgcolor=#ffffff>
+                    <td width="22%" height="23" align="center" bgcolor="white" class="td_padding">
+                        <p align="center">5A6206 </p>
+                    </td>
+                    <td width="43%" height="23" align="center" bgcolor="white" class="td_padding">
+                        <p align="center">교육과정 및 교육평가</p>
+                    </td>
+                    <td width="17%" height="23" align="center">
+                        <p align="center">2</p>
+                    </td>
+                    <td width="17%" height="23" bgcolor="white" class="td_padding">
+                        <p align="center">2</p>
+                    </td>
+                </tr>
+                <tr bgcolor=#ffffff>
+                    <td width="22%" height="23" align="center" bgcolor="white" class="td_padding">
+                        <p align="center">5A6207 </p>
+                    </td>
+                    <td width="43%" height="23" align="center" bgcolor="white" class="td_padding">
+                        <p align="center">교육심리</p>
+                    </td>
+                    <td width="17%" height="23" align="center">
+                        <p align="center">2</p>
+                    </td>
+                    <td width="17%" height="23" bgcolor="white" class="td_padding">
+                        <p align="center">2</p>
+                    </td>
+                </tr>
+                <tr bgcolor=#ffffff>
+                    <td width="22%" height="23" align="center" bgcolor="white" class="td_padding">
+                        <p align="center">5A6208 </p>
+                    </td>
+                    <td width="43%" height="23" align="center" bgcolor="white" class="td_padding">
+                        <p align="center">교육실습</p>
+                    </td>
+                    <td width="17%" height="23" align="center">
+                        <p align="center">2</p>
+                    </td>
+                    <td width="17%" height="23" bgcolor="white" class="td_padding">
+                        <p align="center">2</p>
+                    </td>
+                </tr>
+                <tr bgcolor=#ffffff>
+                    <td width="22%" height="23" align="center" bgcolor="white" class="td_padding">
+                        <p align="center">5A6209 </p>
+                    </td>
+                    <td width="43%" height="23" align="center" bgcolor="white" class="td_padding">
+                        <p align="center">교육봉사</p>
+                    </td>
+                    <td width="17%" height="23" align="center">
+                        <p align="center">2</p>
+                    </td>
+                    <td width="17%" height="23" bgcolor="white" class="td_padding">
+                        <p align="center">2</p>
+                    </td>
+                </tr>
+                <tr bgcolor=#ffffff>
+                    <td width="22%" height="23" align="center" bgcolor="white" class="td_padding">
+                        <p align="center">5A6210 </p>
+                    </td>
+                    <td width="43%" height="23" align="center" bgcolor="white" class="td_padding">
+                        <p align="center">특수교육학 개론</p>
+                    </td>
+                    <td width="17%" height="23" align="center">
+                        <p align="center">2</p>
+                    </td>
+                    <td width="17%" height="23" bgcolor="white" class="td_padding">
+                        <p align="center">2</p>
+                    </td>
+                </tr>
+                <tr bgcolor=#ffffff>
+                    <td width="22%" height="23" align="center" bgcolor="white" class="td_padding">
+                        <p align="center">5A6211 </p>
+                    </td>
+                    <td width="43%" height="23" align="center" bgcolor="white" class="td_padding">
+                        <p align="center">교직실무</p>
+                    </td>
+                    <td width="17%" height="23" align="center">
+                        <p align="center">2</p>
+                    </td>
+                    <td width="17%" height="23" bgcolor="white" class="td_padding">
+                        <p align="center">2</p>
+                    </td>
+                </tr>
+                <tr bgcolor=#ffffff>
+                    <td width="22%" height="23" align="center" bgcolor="white" class="td_padding">
+                        <p align="center">5A6212 </p>
+                    </td>
+                    <td width="43%" height="23" align="center" bgcolor="white" class="td_padding">
+                        <p align="center">교직윤리</p>
+                    </td>
+                    <td width="17%" height="23" align="center">
+                        <p align="center">2</p>
+                    </td>
+                    <td width="17%" height="23" bgcolor="white" class="td_padding">
+                        <p align="center">2</p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr><br>
+    <tr>
+        <td width="774" height="41"><p><a href="http://www.deu.ac.kr/grd_05/index.jsp" target="_blank"><img src="/front/template/images/sub07_01bt01.gif" width="233" height="32"></a></p></td>
+    </tr>
+</table>
+
+&nbsp;<td width="33" background="../images/s_bg_03.gif">&nbsp;</td>
+              <tr>
+                <td height="75" background="../images/s_bg_04.gif">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td background="../images/s_bg_05.gif">&nbsp;</td>
+              </tr></table></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+    <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="621" background="../images/main_bg_02.gif">&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+</body>
+</html> 

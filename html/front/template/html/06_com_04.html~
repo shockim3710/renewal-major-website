@@ -1,0 +1,135 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="imagetoolbar" content="no" />
+<title>{C.SANGHO}</title>
+<link href="../css.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../flash.js"></script>
+
+<style type="text/css">
+<!--
+#menu {
+	position:absolute;
+	width:741px;
+	height:92px;
+	z-index:2;
+}
+#main_img {
+	position:absolute;
+	width:950px;
+	height:341px;
+	z-index:1;
+}
+#sub_img {
+	position:absolute;
+	width:950px;
+	height:186px;
+	z-index:1;
+}
+-->
+</style>
+<script type="text/javascript">
+<!--
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+</head>
+<body>
+<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="950" height="621" valign="top"><table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="261" valign="top" background="../images/s_bg_01.gif"><table width="950" height="261" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="76" valign="top">{#inc_top}</td>
+          </tr>
+          <tr>
+            <td height="186" valign="top">{#inc_sub_img}</td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td valign="top"><table width="950" height="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="210" valign="top">{#inc_sm}</td>
+            <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td background="../images/s_bg_02.gif">&nbsp;</td>
+                <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" height="47">
+                    <tr>
+                      <td width="336" height="26"><img src="../images/tit_06_04.gif" width="171" height="28"></td>
+                      <td width="321" align="right" class="textnavi" height="26">HOME &gt;커뮤니티 &gt; 동아리 활동</td>
+                      <td width="10" class="textnavi" height="26">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td height="1" colspan="3" bgcolor="d0e4f0"></td>
+                    </tr>
+                    <tr>
+                      <td height="20" colspan="3"></td>
+                    </tr>
+                </table></td>
+                <td background="../images/s_bg_03.gif">&nbsp;</td>
+              </tr>
+                                        <tr>
+                <td width="40" height="400" background="../images/s_bg_02.gif">&nbsp;</td>
+                                            <td align="center" valign="top">&nbsp;
+                                                <table border="0" width="609">
+                                                    <tr>
+                                                        <td width="603">
+                                                            <p align="right"><img src="../images/eleven_1.jpg" border="0" width="602" height="482"></p>
+                                                        </td>
+                                                    </tr>
+                                                   
+                                                    <tr>
+                                                        <td width="603">&nbsp;</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td width="603"><img src="../images/softwareemmmmm.jpg" border="0" width="602" height="685"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td width="603">
+                                                            <p align="center"><object classid="clsid:22D6F312-B0F6-11D0-94AB-0080C74C7E95" codebase="http://activex.microsoft.com/activex/controls/mplayer/en/nsmp2inf.cab#Version=6,4,5,715" width="472" height="272">
+                                                            <param name="FileName" value="/front/template/images/test.avi">
+                                                            <param name="AutoStart" value="true">
+                                                            <param name="ShowTracker" value="true">
+                                                            <param name="ShowControls" value="true">
+                                                            <param name="ShowGotoBar" value="false">
+                                                            <param name="ShowDisplay" value="false">
+                                                            <param name="ShowStatusBar" value="false">
+                                                            <param name="AutoSize" value="false">
+<embed width="472" height="272" src="../images/test.avi" AutoStart="true" ShowTracker="true" ShowControls="true" ShowGotoBar="false" ShowDisplay="false" ShowStatusBar="false" AutoSize="false" pluginspage="http://www.microsoft.com/windows/windowsmedia/download/"></object><br><font face="돋움"><span style="font-size:9pt;">&lt; 자동 주차&nbsp;시연 영상 &gt;</span></font>
+</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                <td width="33" background="../images/s_bg_03.gif">&nbsp;</td>
+                                        </tr>
+              <tr>
+                <td height="75" background="../images/s_bg_04.gif">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td background="../images/s_bg_05.gif">&nbsp;</td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+    <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="621" background="../images/main_bg_02.gif">&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td valign="top">{#inc_copy}</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

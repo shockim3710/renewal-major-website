@@ -1,0 +1,133 @@
+<script type="text/javascript">
+<!--
+function windowOpen(page,w,h,s,r,win) {
+	var win=null;
+	var l = (screen.width) ? (screen.width-w)/2 : 0; 
+	var t = (screen.height) ? (screen.height-h)/2 : 0; 
+	var settings='';
+		
+	settings ='width='+w+','; 
+	settings +='height='+h+',';
+	settings +='top='+t+','; 
+	settings +='left='+l+','; 
+	settings +='scrollbars='+s+','; 
+	settings +='resizable='+r+','; 
+	settings +='status=0';
+
+	var windows=window.open(page,win,settings);
+	windows.focus();
+}
+
+function downloadFile(idx, d, f) {
+	if (idx != '' && d !='' && f != '') {
+		location.href = "{pageID}_download.php?idx=" + idx + "&d=" + d + "&f=" + f;
+	}
+	else {
+		alert("다운로드 할 수 없습니다.");
+	}
+}
+
+function checkForm(val) {
+	var form = document.getElementById("frm");
+	var valText;
+
+	switch(val){
+		case 'MO': valText = "수정"; break;
+		case 'DE': valText = "삭제"; break;
+	}
+
+	if (isNull(form.pincode.value)) {
+		alert('비밀번호를 입력하세요.'); 
+		form.pincode.focus(); 
+		return false;
+	}
+
+	if (!confirm(valText + "하시겠습니까?")) {
+		return false;
+	}
+
+	form.mode.value = val;
+	form.action = "{pageID}.php";
+	form.submit();
+}
+//-->
+</script>
+					<table width="670" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td height="5" align="right">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td height="7" valign="top" background="../images/board/bd_v_top_01.gif"></td>
+                  </tr>
+                  <tr>
+                    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td width="73" height="27" class="notice_T"><div align="center" class="tvdate">제목</div></td>
+                          <td colspan="3">{detail.subject}</td>
+                        </tr>
+                        <tr>
+                          <td height="1" colspan="4" bgcolor="e3f0f7"></td>
+                        </tr>
+                        <tr>
+                          <td width="73" height="28" class="notice_T"><div align="center" class="tvdate">날짜</div></td>
+                          <td width="265">{detail.rdate}</td>
+                          <td width="67" class="notice_T"><div align="center" class="tvdate">글쓴이</div></td>
+                          <td width="265"><!--{? detail.email != '' }--><a href='mailto:{detail.email}'>{detail.name}</a><!--{:}-->{detail.name}<!--{/}--></td>
+                        </tr>
+                        <tr>
+                          <td height="1" colspan="4" bgcolor="e3f0f7"></td>
+                        </tr>
+								<!--{? detail.totalFileCnt > 0}-->
+                        <tr>
+                          <td height="27" class="notice_T"><div align="center" class="tvdate">파일</div></td>
+                          <td colspan="3">
+										<table cellpadding="1" cellspacing="0" border="0" style="margin: 2px 0px 2px 0px;">
+										<!--{@ filelist}-->
+											<tr>
+											<td width="1%" valign="bottom"><a href='#' onclick='downloadFile("{detail.idx}", "{detail.uploadDir}","{=urlencode(.value_)}"); return false;'><img src="../images/ext/{=icon(ext(.value_))}.png" border="0" width="16" height="16" valign="absmiddle"></a></td>
+											<td style="padding-left: 4px;" valign="bottom"><a href='#' onclick='downloadFile("{detail.idx}", "{detail.uploadDir}","{=urlencode(.value_)}"); return false;' class="a_sm">{.value_}</a> &nbsp;<span class="filesize">({=getSize(filesize[.index_])})</span></td>
+											</tr>
+										<!--{/}-->
+										</table>
+								  </td>
+                        </tr>
+                        <tr>
+                          <td height="1" colspan="4" bgcolor="e3f0f7"></td>
+                        </tr>
+								<!--{/}-->
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td><table width="100%" border="0" cellspacing="10" cellpadding="0">
+                        <tr>
+                          <td height="250" valign="top" style="padding:5 2 5 2">{detail.contents}</td>
+                        </tr>
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td height="7" background="../images/board/bd_v_top_01.gif"></td>
+                  </tr>
+                  <tr>
+                    <td height="40" align="center">
+								<form name="frm" method="post" action="">
+								<input type="hidden" name="mode" value="">
+								<input type="hidden" name="act" value="confirm_post">
+								<input type="hidden" name="idx" value="{idx}">
+								<input type="hidden" name="p" value="{p}">
+								<input type="hidden" name="key" value="{key}">
+								<input type="hidden" name="keyword" value="{keyword}">
+
+								<table border="0" cellspacing="0" cellpadding="0">
+								<tr>
+								<td class="notice_T" width="150"><div align="center" class="tvdate">비밀번호 : <input type="password" name="pincode" size="10" class="input_bbs"></div></td>
+								<td>&nbsp;</td>
+								<td>
+								<a href="#none" onclick="return checkForm('DE');"><img src="../images/board/bt_del.gif" width="67" height="24" border="0"></a>&nbsp;<a href="#none" onclick="return checkForm('MO');"><img src="../images/board/bt_modify.gif" width="67" height="24" border="0"></a>&nbsp;<!--{? code != 'pt_hom_qna' }--><a href="{pageID}.php?act=reply&idx={idx}&p={p}&key={key}&keyword={=urlencode(keyword)}"><img src="../images/board/bt_reply.gif" border="0"></a>&nbsp;<!--{/}--><a href="{pageID}.php?p={p}&key={key}&keyword={=urlencode(keyword)}"><img src="../images/board/bt_list.gif" width="67" height="24" border="0" alt="list"></a>
+								</td>
+								</tr>
+								</table>
+								</form>
+
+						  <!--img src="../images/board/bt_del.gif" width="67" height="24" /> <img src="../images/board/bt_modify.gif" width="67" height="24" /> <a href="{pageID}.php?p={p}&key={key}&keyword={=urlencode(keyword)}"><img src="../images/board/bt_list.gif" width="67" height="24" border="0" alt="목록" /></a><img src="../images/board/bt_write.gif" width="67" height="24" /><img src="../images/board/bt_ok.gif" width="67" height="24" /--></td>
+                  </tr>
+                </table>

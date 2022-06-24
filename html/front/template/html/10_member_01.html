@@ -1,0 +1,162 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="imagetoolbar" content="no" />
+<title>{C.SANGHO}</title>
+<link href="../css.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../flash.js"></script>
+<script type="text/javascript" src="../common.js"></script><noscript></noscript>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function loginSub(form){
+	if (isNull(form.userid.value)) {
+		alert("아이디를 입력하세요.");
+		form.userid.value = '';
+		form.userid.focus();
+		return false;
+	}
+
+	if (isNull(form.pincode.value)) {
+		alert("비밀번호를 입력하세요.");
+		form.pincode.value = '';
+		form.pincode.focus();
+		return false;
+	}
+
+	return true;
+}
+//-->
+</SCRIPT>
+</SCRIPT>
+<style type="text/css">
+<!--
+#menu {
+	position:absolute;
+	width:741px;
+	height:92px;
+	z-index:2;
+}
+#main_img {
+	position:absolute;
+	width:950px;
+	height:341px;
+	z-index:1;
+}
+#sub_img {
+	position:absolute;
+	width:950px;
+	height:186px;
+	z-index:1;
+}
+-->
+</style>
+</head>
+<body onload="document.frm.userid.focus();">
+<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="950" height="621" valign="top"><table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="261" valign="top" background="../images/s_bg_01.gif"><table width="950" height="261" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="76" valign="top">{#inc_top}</td>
+          </tr>
+          <tr>
+            <td height="186" valign="top">{#inc_sub_img}</td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td valign="top"><table width="950" height="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="210" valign="top">{#inc_sm}</td>
+            <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td background="../images/s_bg_02.gif">&nbsp;</td>
+                <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="336" height="29"><img src="../images/tit_10_01.gif" width="94" height="29"></td>
+                      <td width="321" align="right" class="textnavi">HOME &gt; 회원정보 &gt; 로그인</td>
+                      <td width="10" class="textnavi">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td height="1" colspan="3" bgcolor="d0e4f0"></td>
+                    </tr>
+                    <tr>
+                      <td height="20" colspan="3" ></td>
+                    </tr>
+                </table></td>
+                <td background="../images/s_bg_03.gif">&nbsp;</td>
+              </tr>
+              <tr>
+                <td width="40" height="400" background="../images/s_bg_02.gif">&nbsp;</td>
+                <td align="center">
+
+					 <form name="frm" method="post" action="10_member_01_post.php" onsubmit="return loginSub(this);">
+					 <input type="hidden" name="gopage" value="{gopage}">
+					 <table width="394" border="0" cellspacing="0" cellpadding="0">
+						<tr><td height="75" colspan="5"><img src="../images/s_8_1_1.gif" width="394" height="75" /></td></tr>
+                  <tr>
+							<td width="57" rowspan="6" valign="top" background="../images/s_8_1_2.gif">&nbsp;</td>
+							<td width="57" height="22"><img src="../images/s_8_1_3.gif" width="57" height="22" /></td>
+							<td width="148"><label><input name="userid" type="text" id="userid" class="input" size="18" maxlength="18" tabindex="1" /></label></td>
+							<td width="63" rowspan="3"><input type="image" src="../images/bt_login.gif" width="63" height="54" tabindex="3" /></td>
+							<td width="69" rowspan="6" valign="top" background="../images/s_8_1_5.gif"><img src="../images/s_8_1_5.gif" width="69" height="5" /></td>
+						</tr>
+                  <tr>
+                    <td height="4"></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td height="21"><img src="../images/s_8_1_4.gif" width="57" height="21" /></td>
+                    <td><input name="pincode" type="password" id="pincode" size="18" class="input" maxlength="18" tabindex="2" /></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td height="9"></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td height="18"><a href="10_member_04.php"><img src="../images/s_8_1_6.gif" width="148" height="18" /></a></td>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td height="18"><a href="10_member_02.php"><img src="../images/s_8_1_7.gif" width="148" height="18" /></a></td>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td colspan="5"><img src="../images/s_8_1_8.gif" width="394" height="38" /></td>
+                  </tr>
+                </table>
+					 </form>
+
+					 </td>
+                <td width="33" background="../images/s_bg_03.gif">&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="75" background="../images/s_bg_04.gif">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td background="../images/s_bg_05.gif">&nbsp;</td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+    <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="621" background="../images/main_bg_02.gif">&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td valign="top">{#inc_copy}</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

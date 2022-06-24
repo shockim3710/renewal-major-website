@@ -1,0 +1,93 @@
+<script type="text/javascript">
+<!--
+function windowOpen(page,w,h,s,r,win) {
+	var win=null;
+	var l = (screen.width) ? (screen.width-w)/2 : 0; 
+	var t = (screen.height) ? (screen.height-h)/2 : 0; 
+	var settings='';
+		
+	settings ='width='+w+','; 
+	settings +='height='+h+',';
+	settings +='top='+t+','; 
+	settings +='left='+l+','; 
+	settings +='scrollbars='+s+','; 
+	settings +='resizable='+r+','; 
+	settings +='status=0';
+
+	var windows=window.open(page,win,settings);
+	windows.focus();
+}
+
+function downloadFile(idx, d, f) {
+	if (idx != '' && d !='' && f != '') {
+		location.href = "{pageID}_download.php?idx=" + idx + "&d=" + d + "&f=" + f;
+	}
+	else {
+		alert("다운로드 할 수 없습니다.");
+	}
+}
+//-->
+</script>
+					<table width="550" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td height="5" align="right">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td height="7" valign="top" background="../../images/board/bd_v_top_01.gif"></td>
+                  </tr>
+                  <tr>
+                    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td width="73" height="27" class="notice_T"><div align="center" class="tvdate">제목</div></td>
+                          <td colspan="3">
+									<!--{? detail.notice_flag == 'Y'}-->
+									<img src="../../images/ico_notice.gif" border="0" align="absmiddle"  alt="공지">
+									<!--{/}-->
+								  {detail.subject}</td>
+                        </tr>
+                        <tr>
+                          <td height="1" colspan="4" bgcolor="e3f0f7"></td>
+                        </tr>
+                        <tr>
+                          <td width="73" height="28" class="notice_T"><div align="center" class="tvdate">날짜</div></td>
+                          <td width="265">{detail.reg_date}</td>
+                          <td width="67" class="notice_T"><div align="center" class="tvdate">글쓴이</div></td>
+                          <td width="265">{detail.user_name}</td>
+                        </tr>
+                        <tr>
+                          <td height="1" colspan="4" bgcolor="e3f0f7"></td>
+                        </tr>
+								<!--{? detail.totalFileCnt > 0}-->
+                        <tr>
+                          <td height="27" class="notice_T"><div align="center" class="tvdate">파일</div></td>
+                          <td colspan="3">
+										<table cellpadding="1" cellspacing="0" border="0" style="margin: 2px 0px 2px 0px;">
+										<!--{@ filelist}-->
+											<tr>
+											<td width="1%" valign="bottom"><a href='#' onclick='downloadFile("{detail.idx}", "{detail.upload_dir}","{=urlencode(.value_)}"); return false;'><img src="../../images/ext/{=icon(ext(.value_))}.png" border="0" width="16" height="16" valign="absmiddle"></a></td>
+											<td style="padding-left: 4px;" valign="bottom"><a href='#' onclick='downloadFile("{detail.idx}", "{detail.upload_dir}","{=urlencode(.value_)}"); return false;' class="a_sm">{.value_}</a> &nbsp;<span class="filesize">({=getSize(filesize[.index_])})</span></td>
+											</tr>
+										<!--{/}-->
+										</table>
+								  </td>
+                        </tr>
+                        <tr>
+                          <td height="1" colspan="4" bgcolor="e3f0f7"></td>
+                        </tr>
+								<!--{/}-->
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td><table width="100%" border="0" cellspacing="10" cellpadding="0">
+                        <tr>
+                          <td height="250" valign="top" style="padding:5 2 5 2">{detail.contents}</td>
+                        </tr>
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td height="7" background="../../images/board/bd_v_top_01.gif"></td>
+                  </tr>
+                  <tr>
+                    <td height="40" align="center"><a href="{pageID}.php?p={p}&key={key}&keyword={=urlencode(keyword)}"><img src="../../images/board/bt_list.gif" width="67" height="24" border="0" alt="목록" /></a></td>
+                  </tr>
+                </table>

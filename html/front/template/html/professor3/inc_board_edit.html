@@ -1,0 +1,128 @@
+<script type="text/javascript">
+<!--
+function windowOpen(page,w,h,s,r,win) {
+	var win=null;
+	var l = (screen.width) ? (screen.width-w)/2 : 0; 
+	var t = (screen.height) ? (screen.height-h)/2 : 0; 
+	var settings='';
+		
+	settings ='width='+w+','; 
+	settings +='height='+h+',';
+	settings +='top='+t+','; 
+	settings +='left='+l+','; 
+	settings +='scrollbars='+s+','; 
+	settings +='resizable='+r+','; 
+	settings +='status=0';
+
+	var windows=window.open(page,win,settings);
+	windows.focus();
+}
+
+function checkForm(form) {
+	if (isNull(form.subject.value)) {
+		alert('제목을 입력하세요.'); 
+		form.subject.focus(); 
+		return false;
+	}
+
+	if (isNull(form.name.value)) {
+		alert('작성자를 입력하세요.'); 
+		form.name.focus(); 
+		return false;
+	}
+
+	if (isNull(form.contents.value)) {
+		alert('내용을 입력하세요.'); 
+		form.contents.focus(); 
+		return false;
+	}
+
+	if (!confirm("수정하시겠습니까?")) {
+		return false;
+	}
+
+	return true;
+}
+
+function downloadFile(idx, d, f) {
+	if (idx != '' && d !='' && f != '') {
+		location.href = "{pageID}_download.php?idx=" + idx + "&d=" + d + "&f=" + f;
+	}
+	else {
+		alert("다운로드 할 수 없습니다.");
+	}
+}
+//-->
+</script>
+<form name="fm" method="post" action="{pageID}.php" enctype="multipart/form-data" onsubmit="return checkForm(this);">
+<input type="hidden" name="act" value="edit_post">
+<input type="hidden" name="uploadDir" value="{detail.uploadDir}">
+<input type="hidden" name="idx" value="{detail.idx}">
+<input type="hidden" name="p" value="{p}">
+<input type="hidden" name="key" value="{key}">
+<input type="hidden" name="keyword" value="{keyword}">
+
+	<table width="600" border="0" cellspacing="0" cellpadding="0">
+		<tr><td height="5" align="right">&nbsp;</td></tr>
+		<tr><td height="7" valign="top" background="../../images/board/bd_v_top_01.gif"></td></tr>
+		<tr>
+		<td>
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr>
+         <td width="73" height="27" class="notice_T"><div align="center" class="tvdate">제목</div></td>
+         <td colspan="3">&nbsp;<input type="text" name="subject" id="subject" size="80" class="input_bbs" value="{detail.subject}"></td>
+         </tr>
+			<tr>
+         <td height="1" colspan="4" bgcolor="e3f0f7"></td>
+         </tr>
+         <tr>
+         <td width="73" height="28" class="notice_T"><div align="center" class="tvdate">작성자</div></td>
+         <td width="220">&nbsp;<input type="text" name="name" id="name" size="25" class="input_bbs" value="{detail.name}"></td>
+			<td width="67" class="notice_T"><div align="center" class="tvdate">E-MAIL</div></td>
+         <td width="240">&nbsp;<input type="text" name="email" id="email" size="32" class="input_bbs" value="{detail.email}"></td>
+			</tr>
+			<!--{? detail.totalFileCnt > 0}-->
+         <tr>
+         <td height="27" class="notice_T"><div align="center" class="tvdate">첨부파일</div></td>
+         <td colspan="3">
+				<table cellpadding="1" cellspacing="0" border="0" style="margin: 2px 0px 2px 0px;">
+				<!--{@ filelist}-->
+				<tr>
+				<td width="1%" valign="bottom"><a href='#' onclick='downloadFile("{detail.idx}", "{detail.uploadDir}","{=urlencode(.value_)}"); return false;'><img src="../../images/ext/{=icon(ext(.value_))}.png" border="0" width="16" height="16" valign="absmiddle"></a></td>
+				<td style="padding-left: 4px;" valign="bottom"><a href='#' onclick='downloadFile("{detail.idx}", "{detail.uploadDir}","{=urlencode(.value_)}"); return false;' class="a_sm">{.value_}</a> &nbsp;<span class="filesize">({=getSize(filesize[.index_])})</span></td>
+				</tr>
+				<!--{/}-->
+				</table>
+			</td>
+         </tr>
+         <tr>
+         <td height="1" colspan="4" bgcolor="e3f0f7"></td>
+         </tr>
+			<!--{/}-->
+         <tr>
+         <td height="27" class="notice_T"><div align="center" class="tvdate">파일첨부</div></td>
+         <td colspan="3">&nbsp;<input type="file" name="cover" id="cover" size="65" class="input_bbs"></td>
+			</tr>
+         <tr>
+         <td height="1" colspan="4" bgcolor="e3f0f7"></td>
+         </tr>
+         </table>
+		</td>
+      </tr>
+      <tr>
+      <td>
+			<table width="100%" border="0" cellspacing="10" cellpadding="0">
+         <tr>
+         <td style="padding-left:67px"><textarea name="contents" cols='78' rows='15' class="input_txt">{detail.contents}</textarea></td>
+         </tr>
+         </table>
+		</td>
+      </tr>
+      <tr>
+      <td height="7" background="../../images/board/bd_v_top_01.gif"></td>
+      </tr>
+      <tr>
+      <td height="40" align="center"><input type="image" src="../../images/board/bt_ok.gif" width="67" height="24" />&nbsp;<a href="{pageID}.php?p={p}&key={key}&keyword={=urlencode(keyword)}"><img src="../../images/board/bt_list.gif" width="67" height="24" border="0" /></a></td>
+      </tr>
+      </table>
+</form>

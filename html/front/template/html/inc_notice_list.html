@@ -1,0 +1,145 @@
+<script type="text/javascript">
+<!--
+function checkSearchFrm(frm) {
+	var elm = frm.keyword;
+
+	if (checkSpecialchar(elm.value)) {
+		alert("검색어에 특수문자를 제거하세요!");
+		elm.focus();
+		return false;
+	}
+
+	if (isNull(elm.value)) {
+		alert("검색어를 입력하세요.");
+		elm.value = '';
+		elm.focus();
+		return false;
+	}
+
+	return true;
+}
+//-->
+</script>
+					<table width="666" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td><table width="100%" border="0" cellpadding="0" cellspacing="0" background="../images/board/bd_t_01.gif">
+                        <tr>
+                          <td width="14" class="noitce_t"><img src="../images/board/bd_t_left_01.gif" width="14" height="34" /></td>
+                          <td width="32" class="tvdate">번호</td>
+                          <td width="332" align="center" class="tvdate">제 목</td>
+                          <td width="85" align="center" class="tvdate">글쓴이</td>
+                          <td width="110" align="center" class="tvdate">날 짜</td>
+                          <td width="42" align="center" class="tvdate">파일</td>
+                          <td width="43" align="center" class="tvdate">조회</td>
+                          <td width="8"><img src="../images/board/bd_t_right_01.gif" width="6" height="34" /></td>
+                        </tr>
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td>
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+								<!--{@list}-->	
+                        <tr>
+                          <td width="14" height="27">&nbsp;</td>
+                          <td width="32" align="center"><!--{? .notice_flag != 'Y'}-->{.tmpno}<!--{:}--><img src="../images/ico_notice.gif" border="0" align="absmiddle"  alt="공지"><!--{/}--></td>
+                          <td width="332" style="padding-left:5px"><a href="{pageID}.php?act=view&idx={.idx}&p={p}&key={key}&keyword={=urlencode(keyword)}">{.subject}</a>&nbsp;<!--{? current_date == .reg_date}--><img align="absmiddle" src="../images/ico_new.gif" width="9" height="9"><!--{/}--></td>
+                          <td width="85" align="center">{.name}</td>
+                          <td width="110" align="center">{.reg_date}</td>
+                          <td width="42" align="center">
+									<!--{? .is_upload == true}-->
+									<a href="{pageID}.php?act=view&idx={.idx}&p={p}&key={key}&keyword={=urlencode(keyword)}"><img alt="파일" src="../images/ico_file.gif" width="16" height="15" border="0"></a>
+									<!--{:}-->
+									&nbsp;
+									<!--{/}-->
+								  </td>
+                          <td width="43" align="center">{.hit}</td>
+                          <td width="8">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td height="1" colspan="9" bgcolor="e3f0f7"></td>
+                        </tr>
+								<!--{:}-->
+                        <tr>
+                          <td width="14" height="27">&nbsp;</td>
+                          <td width="644" align="center">등록된 게시물이 없습니다.</td>
+                          <td width="8">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td height="1" colspan="3" bgcolor="e3f0f7"></td>
+                        </tr>
+								<!--{/}-->
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td height="10"></td>
+                  </tr>
+                  <tr>
+                    <td>
+						  
+							<form name="sfm" method="post" action="{pageID}.php" onsubmit="return checkSearchFrm(this);">
+							<table width="100%" border="0" cellpadding="0" cellspacing="0" background="../images/board/bd_b_bg.gif">
+                        <tr>
+                          <td width="17"><img src="../images/board/bd_b_left_01.gif" width="17" height="54" /></td>
+                          <td width="224"><label>
+									 <select name="key" class="input_bbs" id="gubun">
+										<option value='subject' <!--{? key == 'subject' }-->selected<!--{/}-->>제목</option>
+										<option value='contents' <!--{? key == 'contents' }-->selected<!--{/}-->>내용</option>
+									 </select>
+                            </label>
+                              <label>
+										<input name="keyword" type="text" class="input_bbs" id="search" size="13" maxlength="13" value="{keyword}" />
+                              </label>
+										<input type="image" src="../images/board/bt_search.gif" width="50" height="20" align="absmiddle" />
+										</td>
+                          <td>&nbsp;</td>
+                          <td width="176">
+											<!-- 페이지 시작 -->
+											<table width="100%" border=0 cellpadding="0" cellspacing="0">
+											<tr> 
+												<td height="50">
+													<table border="0" align="center">
+														<td align="center">
+															<!--{? page.prev != ''}-->
+																<a href="{pageID}.php?{page.prev}"><img src="../images/board/arrow_left.gif" border="0" width="12" height="12" alt="이전"></a>
+															<!--{:}-->
+																<a href="javascript:alert('이전 페이지가 없습니다.');"><img src="../images/board/arrow_left.gif" border="0" width="12" height="12" alt="이전"> &nbsp;
+															<!--{/}-->
+														</td>
+														<td align="center">
+														<div style="margin-bottom: 3px">
+															<!--{@page.link}-->
+																<!--{? .get == ''}-->
+																	<span class="board_sel_pagenum">{.p}</span> &nbsp;
+																<!--{:}-->
+																	<a href="{pageID}.php?{.get}"><span class="board_pagenum">{.p}</span></a> &nbsp;
+																<!--{/}-->
+															<!--{:}-->
+																	<span class="board_pagenum">1</span> &nbsp;
+															<!--{/}-->
+															</div>
+														</td>
+														<td align="center">
+															<!--{? page.next != ''}-->
+																<a href="{pageID}.php?{page.next}"><img src="../images/board/arrow_right.gif" border="0" width="12" height="12" alt="다음"></a>
+															<!--{:}-->
+																<a href="javascript:alert('다음 페이지가 없습니다.');"><img src="../images/board/arrow_right.gif" border="0" width="12" height="12" alt="다음"></a> &nbsp;
+															<!--{/}-->
+														</td>
+													</tr>
+													</table>
+												</td>
+											</tr>
+											</table>
+											<!-- 페이지 끝 -->
+								  
+								  </td>
+                          <td width="135">&nbsp;</td>
+                          <td width="67"><a href="{pageID}.php"><img src="../images/board/bt_list.gif" width="67" height="24" border="0" alt='목록' /></a></td>
+                          <td width="20" align="right"><img src="../images/board/bd_b_right_01.gif" width="20" height="54" /></td>
+                        </tr>
+							</table>
+							</form>
+						  
+						  </td>
+                  </tr>
+                </table>

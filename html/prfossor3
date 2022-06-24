@@ -1,0 +1,171 @@
+
+<!-- saved from url=(0046)http://113.198.234.149/front/phtml/professor3/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>동의대 컴퓨터소프트웨어공학과 홈페이지입니다.</title>
+<link href="./intro_files/css.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="./intro_files/flash.js"></script>
+<script type="text/javascript" src="./intro_files/common.js"></script>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+-->
+</style>
+<script type="text/javascript">
+<!--
+function checkSearchFrm(frm) {
+	var elm = frm.keyword;
+
+	if (checkSpecialchar(elm.value)) {
+		alert("검색어에 특수문자를 제거하세요!");
+		elm.focus();
+		return false;
+	}
+
+	if (isNull(elm.value)) {
+		alert("검색어를 입력하세요.");
+		elm.value = '';
+		elm.focus();
+		return false;
+	}
+
+	return true;
+}
+//-->
+</script>
+</head>
+
+<body onload="MM_preloadImages(&#39;/front/template/images/pro3/m_no_01o.gif&#39;,&#39;/front/template/images/pro3/m_no_02o.gif&#39;)">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td><table width="1000" border="0" cellspacing="0" cellpadding="0">
+      <tbody><tr>
+        <td width="72">&nbsp;</td>
+        <td width="840" height="29" align="right" valign="bottom"><img src="./intro_files/top_home.gif" width="36" height="16"><img src="./intro_files/top_contact.gif" width="65" height="16"><a href="http://113.198.234.149/front/phtml/professor3/06_board01.php"><img src="./intro_files/top_notice.gif" width="56" height="16"></a></td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="72">&nbsp;</td>
+        <td height="70"><script>flash('/front/template/images/pro3/menu.swf','840','70');</script><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="840" height="70">
+<param name="movie" value="/front/template/images/pro3/menu.swf">
+<param name="quality" value="high">
+<param name="wmode" value="transparent">
+<param name="menu" value="false">
+<embed src="/front/template/images/pro3/menu.swf" width="840" height="70" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent" menu="false">
+</object>
+</td>
+        <td>&nbsp;</td>
+      </tr>
+    </tbody></table></td>
+  </tr>
+  <tr>
+    <td><table width="1000" border="0" cellspacing="0" cellpadding="0">
+      <tbody><tr>
+        <td height="250" background="./intro_files/main_back.gif"><table width="1000" border="0" cellspacing="0" cellpadding="0">
+          <tbody><tr>
+            <td width="72" height="250">&nbsp;</td>
+            <td width="840"><script>flash('/front/template/images/pro3/main.swf','840','250');</script><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="840" height="250">
+<param name="movie" value="/front/template/images/pro3/main.swf">
+<param name="quality" value="high">
+<param name="wmode" value="transparent">
+<param name="menu" value="false">
+<embed src="/front/template/images/pro3/main.swf" width="840" height="250" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent" menu="false">
+</object>
+</td>
+            <td>&nbsp;</td>
+          </tr>
+        </tbody></table></td>
+      </tr>
+    </tbody></table></td>
+  </tr>
+  <tr>
+    <td><table width="1000" border="0" cellspacing="0" cellpadding="0">
+      <tbody><tr>
+        <td width="72" valign="top"><table width="72" border="0" cellspacing="0" cellpadding="0">
+          <tbody><tr>
+            <td height="138" background="./intro_files/mleft_back.gif">&nbsp;</td>
+          </tr>
+        </tbody></table></td>
+        <td width="840" valign="top"><table width="840" border="0" cellspacing="0" cellpadding="0">
+          <tbody><tr>
+            <td height="20" background="./intro_files/m_con01.gif">&nbsp;</td>
+          </tr>
+          <tr>
+            <td height="118" background="./intro_files/m_con_back.gif"><table width="840" border="0" cellspacing="0" cellpadding="0">
+              <tbody><tr>
+                <td width="32">&nbsp;</td>
+                <td width="321"><table width="321" border="0" cellspacing="0" cellpadding="0">
+                  <tbody><tr>
+                    <td height="26" background="./intro_files/m_no_back.gif"><table width="133" border="0" cellspacing="0" cellpadding="0">
+                      <tbody><tr>
+                        <td width="66"><a href="http://113.198.234.149/front/phtml/professor3/06_board01.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage(&#39;Image4&#39;,&#39;&#39;,&#39;/front/template/images/pro3/m_no_01o.gif&#39;,1)" onfocus="this.blur();"><img src="./intro_files/m_no_01o.gif" name="Image4" width="66" height="26" border="0"></a></td>
+                        <td width="67"><!--a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','/front/template/images/pro3/m_no_02o.gif',1)"><img src="/front/template/images/pro3/m_no_02.gif" name="Image5" width="67" height="26" border="0"></a--></td>
+                      </tr>
+                    </tbody></table></td>
+                  </tr>
+                  <tr>
+                    <td height="92" align="center" valign="top" style="padding-top:5px"><table width="300" border="0" cellspacing="0" cellpadding="0">
+                    </table></td>
+                  </tr>
+                </tbody></table></td>
+                <td width="19">&nbsp;</td>
+                <td width="219"><table width="219" border="0" cellspacing="0" cellpadding="0">
+                  <tbody><tr>
+                    <td><a href="http://113.198.234.149/front/phtml/professor3/03_res.php" onfocus="this.blur();"><img src="./intro_files/m_img01.gif" width="219" alt="강의질문방" height="60" border="0"></a></td>
+                  </tr>
+                  <tr>
+                    <td><a href="http://113.198.234.149/front/phtml/professor3/06_board02.php" onfocus="this.blur();"><img src="./intro_files/m_img02.gif" width="219" alt="강의자료실" height="58" border="0"></a></td>
+                  </tr>
+                </tbody></table></td>
+                <td width="25">&nbsp;</td>
+                <td><table width="191" border="0" cellspacing="0" cellpadding="0">
+                  <tbody><tr>
+				  <td><a href="http://113.198.234.149/front/phtml/professor3/05_pro.php" onfocus="this.blur();"><img src="./intro_files/m_img04.gif" width="191" height="58" border="0"></a></td>
+                    <!-- td><img src="/front/template/images/pro3/m_data.gif" width="46" height="20"></td>
+                  </tr>
+                  <tr>
+                    <td height="41">
+                      
+						  <form name="sfrm" method="post" action="06_board02.php" onsubmit="return checkSearchFrm();">  
+							 <input type="hidden" name="key" value="all" />
+                      <input name="keyword" type="text" id="keyword" size="18" />
+                      <input type="image" src="/front/template/images/pro3/m_bt_sc.gif" width="40" height="19" align="absmiddle" />
+						  </form>
+							 
+							 </td -->
+                  </tr>
+                  <tr>
+                    <td><a href="mailto:skkwon@deu.ac.kr" onfocus="this.blur();"><img src="./intro_files/m_img03.gif" width="191" height="58" border="0"></a></td>
+                  </tr>
+                </tbody></table></td>
+              </tr>
+            </tbody></table></td>
+          </tr>
+          <tr>
+            <td height="22">&nbsp;</td>
+          </tr>
+        </tbody></table></td>
+        <td width="88" valign="top"><table width="88" border="0" cellspacing="0" cellpadding="0">
+          <tbody><tr>
+            <td height="138" background="./intro_files/mright_back.gif">&nbsp;</td>
+          </tr>
+        </tbody></table></td>
+      </tr>
+    </tbody></table></td>
+  </tr>
+  <tr>
+    <td><table width="1000" border="0" cellspacing="0" cellpadding="0">
+      <tbody><tr>
+        <td width="80">&nbsp;</td>
+        <td><img src="./intro_files/s_copy.gif" width="822" height="60"></td>
+      </tr>
+    </tbody></table></td>
+  </tr>
+</tbody></table>
+
+</body></html>

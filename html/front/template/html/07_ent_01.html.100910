@@ -1,0 +1,306 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="imagetoolbar" content="no" />
+<title>{C.SANGHO}</title>
+<link href="../css.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../flash.js"></script>
+</SCRIPT>
+<style type="text/css">
+<!--
+#menu {
+	position:absolute;
+	width:741px;
+	height:92px;
+	z-index:2;
+}
+#main_img {
+	position:absolute;
+	width:950px;
+	height:341px;
+	z-index:1;
+}
+#sub_img {
+	position:absolute;
+	width:950px;
+	height:186px;
+	z-index:1;
+}
+-->
+</style>
+</head>
+<body>
+<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="950" height="621" valign="top"><table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="261" valign="top" background="../images/s_bg_01.gif"><table width="950" height="261" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="76" valign="top">{#inc_top}</td>
+          </tr>
+          <tr>
+            <td height="186" valign="top">{#inc_sub_img}</td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td valign="top"><table width="950" height="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="210" valign="top">{#inc_sm}</td>
+            <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td background="../images/s_bg_02.gif">&nbsp;</td>
+                <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="336" height="29"><img src="../images/tit_07_01.gif" width="95" height="29"></td>
+                      <td width="321" align="right" class="textnavi">HOME &gt; 입학/장학&gt; 입학정보</td>
+                      <td width="10" class="textnavi">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td height="1" colspan="3" bgcolor="d0e4f0"></td>
+                    </tr>
+                    <tr>
+                      <td height="20" colspan="3" ></td>
+                    </tr>
+                </table></td>
+                <td background="../images/s_bg_03.gif">&nbsp;</td>
+              </tr>
+              <tr>
+                <td width="40" height="400" background="../images/s_bg_02.gif">&nbsp;</td>
+                <td valign="top"><table width="666" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td><table width="666" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="10" colspan="3">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td width="30">&nbsp;</td>
+                        <td width="600" align="right" class="text04"><!-- Document Start -->
+                            <p><a href="http://ipsi.deu.ac.kr/" target="_blank"><img src="../images/sub07_01bt01.gif" width="233" height="32"></a></p>
+                          <!-- Document End --></td>
+                        <td class="text04">&nbsp;</td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td class="tvdate">&nbsp;&nbsp;<img src="../images/icon_01.gif" width="16" height="16" align="absmiddle">수시 2학기 (2010년 전형)</td>
+                  </tr>
+                  <tr>
+                    <td><table width="666" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td height="10" colspan="3"></td>
+                        </tr>
+                        <tr>
+                          <td width="30">&nbsp;</td>
+                          <td width="600" height="25" class="text04"><p class="text09">● 일반계 : 일반계교과성적우수자          ● 전문계 :   전문계교과성적우수자</p></td>
+                          <td class="text04">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td>&nbsp;</td>
+                          <td height="25" class="text07">[모집인원]</td>
+                          <td class="text04">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td>&nbsp;</td>
+                          <td height="25" class="text04"><table border="0" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
+                            <TR>
+                              <TD width="35" rowSpan="2" bgColor="#E4EFF6" class="text07"><p align="center">대학</p></TD>
+                              <TD width="137" rowSpan="2" bgColor="#E4EFF6" class="text07"><p align="center">모집단위</p></TD>
+                              <TD bgColor="#E4EFF6" colSpan="13"><p align="center" class="text07">모집인원</p></TD>
+                            </TR>
+                            <TR>
+                              <TD width="32" bgColor="#E4EFF6" class="text09"><p align="center">일반계고교출신자</p></TD>
+                              <TD width="32" bgColor="#E4EFF6" class="text09"><p align="center">전문계고교출신지</p></TD>
+                              <TD width="32" bgColor="#E4EFF6" class="text09"><p align="center">학생임원역임자</p></TD>
+                              <TD width="32" bgColor="#E4EFF6" class="text09"><p align="center">경기실적우수자</p></TD>
+                              <!--                                              <td width="190" colspan="6" bgcolor="#ECF5FF">                                                  <p align="center"><span style="font-size:9pt;"><font face="돋움" color="#666666">  												특기자</font></span></p>                                              </td>  											-->
+                              <TD width="32" bgColor="#E4EFF6" class="text09"><p align="center">어학특기자</p></TD>
+                              <TD width="32" bgColor="#E4EFF6" class="text09"><p align="center">체육특기자</p></TD>
+                           
+                              <TD width="32" bgColor="#E4EFF6" class="text09"><p align="center">취업자</p></TD>
+                              <TD width="32" bgColor="#E4EFF6" class="text09"><p align="center">유공자자손</p></TD>
+                              <TD width="32" bgColor="#E4EFF6" class="text09"><p align="center">검정고시출신자</p></TD>
+                              <TD width="32" bgColor="#E4EFF6" class="text09"><p align="center">만학도 주부 </p></TD>
+                              <TD width="32" bgColor="#E4EFF6" class="text09"><p align="center">농어촌학생</p></TD>
+                              <TD width="32" bgColor="#E4EFF6" class="text09"><p align="center">전문계동일계열출신자</p></TD>
+                              <TD width="26" bgColor="#E4EFF6" class="text09"><p align="center">사회적배려대상자</p></TD>
+                            </TR>
+                            <TR>
+                              <TD width="35" height="35" bgColor="#E4EFF6" class="text09"><p align="center">공과</p></TD>
+                              <TD width="137" height="35" bgColor="#E4EFF6" class="text09"><p align="center">컴퓨터소프트웨어공학과 (입학정원 60명)</p></TD>
+                              <TD width="32" bgColor="#FFFFFF" height="35"><p align="center">39</p></TD>
+                              <TD width="32" bgColor="#FFFFFF" height="35"><p align="center">8</p></TD>
+                              <TD width="32" bgColor="#FFFFFF" height="35"><p align="center"> </p></TD>
+                              <TD width="32" bgColor="#FFFFFF" height="35"><p align="center"> </p></TD>
+                              <TD width="32" bgColor="#FFFFFF" height="35"><p align="center"> </p></TD>
+                              <TD width="32" bgColor="#FFFFFF" height="35"><p align="center"> </p></TD>
+                              <TD width="32" bgColor="#FFFFFF" height="35"><p align="center"> </p></TD>
+                              <TD width="32" bgColor="#FFFFFF" height="35"><p align="center"> </p></TD>
+                              <TD width="32" bgColor="#FFFFFF" height="35"><p align="center"> </p></TD>
+                              <TD width="32" bgColor="#FFFFFF" height="35"><p align="center"> </p></TD>
+                              <TD width="32" bgColor="#FFFFFF" height="35"><p align="center"> </p></TD>
+                              <TD width="32" bgColor="#FFFFFF" height="35"><p align="center"> </p></TD>
+                              <TD width="26" bgColor="#FFFFFF" height="35"><p align="center"> </p></TD>
+                            </TR>
+                          </table>                          </td>
+                          <td class="text04">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td>&nbsp;</td>
+                          <td height="25" class="text01">일반계 교과 성적 우수자 전형을 제외한 모든 전형의 모집단위별 합격인원이 모집인원에 미달되거나 추가합격<br>
+                            자 발표시 충원인원이 없는 경우 그   인원만큼 일반계 교과 성적 우수자 전형 모집인원에 추가하여 합격자를 선<br>
+                            발합니다. 단, 위와 같은 충원 시에 일반계 교과 성적 우수자 전형의   모집단위별 후보자가 없는 경우에는 그 인<br>
+                            원만큼 실업계 교과 성적 우수자 전형 모집인원에서 추가하여 합격자를 선발합니다.</td>
+                          <td class="text04">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td>&nbsp;</td>
+                          <td height="25" class="text04">&nbsp;</td>
+                          <td class="text04">&nbsp;</td>
+                        </tr>
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td><span class="tvdate">&nbsp;&nbsp;<img src="../images/icon_01.gif" width="16" height="16" align="absmiddle">정시 (2010년 전형)</span></td>
+                  </tr>
+                  <tr>
+                    <td><table width="666" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="10" colspan="3"></td>
+                      </tr>
+                      <tr>
+                        <td width="30">&nbsp;</td>
+                        <td width="600" height="25" class="text04"><p class="text09">2010학년도 수시2학기모집 미등록인원의 정시 모집인원 이월로 인한 변경된 최종 모집인원입니다. </p></td>
+                        <td class="text04">&nbsp;</td>
+                      </tr>
+
+                      <tr>
+                        <td>&nbsp;</td>
+                        <td height="25" class="text04"><table border="0" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
+                          <TR>
+                            <TD width="40" height="55" rowSpan="3" bgColor="#E4EFF6" class="text07"><p align="center">대학</p></TD>
+                            <TD width="52" height="55" rowSpan="3" bgColor="#E4EFF6" class="text07"><p align="center">Code</p></TD>
+                            <TD width="127" height="55" rowSpan="3" bgColor="#E4EFF6" class="text07"><p align="center">모집단위</p>
+                                <p align="center">학과(전공)</p></TD>
+                            <TD width="38" height="55" rowSpan="3" bgColor="#E4EFF6" class="text07"><p align="center">입학<BR>
+                              정원</p></TD>
+                            <TD width="32" height="55" rowSpan="3" bgColor="#E4EFF6" class="text07"><p align="center">총<BR>
+                              모집인원</p></TD>
+                            <TD bgColor="#E4EFF6" colSpan="4"><p align="center" class="text07">모집인원</p></TD>
+                          </TR>
+                          <TR>
+                            <TD width="96" height="17" align="center" bgColor="#E4EFF6" class="text09"><p align="center">가군</p></TD>
+                            <TD width="96" align="center" bgColor="#E4EFF6" class="text09">나군 </TD>
+                            <TD width="110" height="17" align="center" bgColor="#E4EFF6" class="text09" colspan="2"><p align="center">다군</p></TD>
+                          </TR>
+                          <TR>
+                            <TD width="96" align="center" bgColor="#E4EFF6" class="text09"><p align="center">일반학생</p></TD>
+                            <TD width="96" align="center" bgColor="#E4EFF6" class="text09"><p align="center">일반학생</p></TD>
+                            <TD width="55" align="center" bgColor="#E4EFF6" class="text09"><p align="center">농어촌<br>학생</p></TD>
+							<TD width="55" align="center" bgColor="#E4EFF6" class="text09"><p align="center">전문계<br> 동일계열<br>출신자</p></TD>
+                          </TR>
+                          <TR>
+                            <TD width="40" height="42" bgColor="#E4EFF6" class="text07"><p align="center">공과<br>대학 </p></TD>
+                            <TD width="52" height="42" bgColor="#E4EFF6" class="text07"><p align="center">613</p></TD>
+                            <TD width="127" height="42" bgcolor="#FFFFFF" class="text01"><p align="center">컴퓨터소프트웨어 <br>
+                              공학과 </p></TD>
+                            <TD width="38" height="42" bgColor="#FFFFFF" class="text01"><p align="center">50</p></TD>
+                            <TD width="32" height="42" bgColor="#FFFFFF" class="text01"><p align="center">50</p></TD>
+                            <TD width="96" height="42" bgColor="#FFFFFF" class="text01"><p align="center">4명</p></TD>
+                            <TD width="96" height="42" bgColor="#FFFFFF" class="text01"><p align="center">6명</p></TD>
+                            <TD width="110" height="42" bgColor="#FFFFFF" class="text01" colspan="2"><p align="center">12월   17일<br>
+                              홈페이지   참조</p>                                </TD>
+                          </TR>
+                        </table>                        </td>
+                        <td class="text04">&nbsp;</td>
+                      </tr>
+
+                      <tr>
+                        <td>&nbsp;</td>
+                        <td height="25" class="text04">&nbsp;</td>
+                        <td class="text04">&nbsp;</td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td><span class="tvdate">&nbsp;&nbsp;<img src="../images/icon_01.gif" width="16" height="16" align="absmiddle">2010년 학년 전기 편입학 요강</span></td>
+                  </tr>
+                  <tr>
+                    <td><table width="666" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="10" colspan="3"></td>
+                      </tr>
+                      <tr>
+                        <td width="30">&nbsp;</td>
+                        <td width="600" height="25" align="right" class="text04"><p class="text09">*편입학 대상은   3학년임*</p></td>
+                        <td class="text04">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                        <td height="25" class="text04"><table border="0" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
+                          <TR>
+                            <TD width="56" height="55" rowSpan="2" bgColor="#E4EFF6" class="text07"><p align="center">대학</p></TD>
+                            <TD width="46" height="55" rowSpan="2" bgColor="#E4EFF6" class="text07"><p align="center">Code</p></TD>
+                            <TD width="109" height="55" rowSpan="2" bgColor="#E4EFF6" class="text07"><p align="center">모집단위<br>
+                              학과(전공)</p>                                </TD>
+                            <TD width="335" bgColor="#E4EFF6" colSpan="4"><p align="center" class="text07">모집인원</p></TD>
+                          </TR>
+                          <TR>
+                            <TD width="61" align="center" bgColor="#E4EFF6" class="text09">일반편입</TD>
+                            <TD width="110" align="center" bgColor="#E4EFF6" class="text09"> 전문계편입<BR>
+                              (최대모집가능인원)</TD>
+                            <TD width="95" align="center" bgColor="#E4EFF6" class="text09"><p align="center">연계교육과정</p></TD>
+							<TD width="115" align="center" bgColor="#E4EFF6" class="text09"><p align="center">학사<br>(최대선발가능인원)</p></TD>
+                          </TR>
+                          <TR>
+                            <TD width="56" height="35" bgColor="#E4EFF6" class="text09"><p align="center">공과대학</p></TD>
+                            <TD width="46" height="35" bgColor="#E4EFF6" class="text09"><p align="center">73</p></TD>
+                            <TD width="109" height="35" bgcolor="#FFFFFF" class="text01"><p align="center"> 컴퓨터소프트웨어<br> 공학과</p></TD>
+                            <TD width="61" height="35" align="center" bgColor="#FFFFFF" class="text01">5</TD>
+                            <TD width="110" height="35" align="middle" bgcolor="#FFFFFF" class="text01"><p align="center">1</p></TD>
+                            <TD width="95" height="35" align="middle" bgcolor="#FFFFFF" class="text01"><p align="center">7</p></TD>
+							<TD width="115" height="35" align="middle" bgcolor="#FFFFFF" class="text01"><p align="center">7</p></TD>
+                          </TR>
+                        </table>
+                        </td>
+                        <td class="text04">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                        <td height="25" class="text04">학사편입(정원외)의 모집인원은 3학년 총 입학정원의 5% 이내, 학과(전공)정원의 10% 이내에서 선발합니다.</td>
+                        <td class="text04">&nbsp;</td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                  </tr>
+                </table></td>
+                <td width="33" background="../images/s_bg_03.gif">&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="75" background="../images/s_bg_04.gif">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td background="../images/s_bg_05.gif">&nbsp;</td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+    <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="621" background="../images/main_bg_02.gif">&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td valign="top">{#inc_copy}</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

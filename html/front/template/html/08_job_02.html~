@@ -1,0 +1,219 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="imagetoolbar" content="no" />
+<title>{C.SANGHO}</title>
+<link href="../css.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../flash.js"></script>
+
+<style type="text/css">
+<!--
+#menu {
+	position:absolute;
+	width:741px;
+	height:92px;
+	z-index:2;
+}
+#main_img {
+	position:absolute;
+	width:950px;
+	height:341px;
+	z-index:1;
+}
+#sub_img {
+	position:absolute;
+	width:950px;
+	height:186px;
+	z-index:1;
+}
+-->
+</style>
+</head>
+<body>
+<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="950" height="621" valign="top"><table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="261" valign="top" background="../images/s_bg_01.gif"><table width="950" height="261" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="76" valign="top">{#inc_top}</td>
+          </tr>
+          <tr>
+            <td height="186" valign="top">{#inc_sub_img}</td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td valign="top"><table width="950" height="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="210" valign="top">{#inc_sm}</td>
+            <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td background="../images/s_bg_02.gif">&nbsp;</td>
+                <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="336" height="29"><img src="../images/tit_08_02.gif" width="97" height="29"></td>
+                      <td width="321" align="right" class="textnavi">HOME &gt; 진로/취업 &gt; 취업실적</td>
+                      <td width="10" class="textnavi">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td height="1" colspan="3" bgcolor="d0e4f0"></td>
+                    </tr>
+                    <tr>
+                      <td height="20" colspan="3"></td>
+                    </tr>
+                </table></td>
+                <td background="../images/s_bg_03.gif">&nbsp;</td>
+              </tr>
+              <tr>
+                <td width="40" height="400" background="../images/s_bg_02.gif">&nbsp;</td>
+                <td valign="top"><table width="666" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td height="10" colspan="3"></td>
+                  </tr>
+
+                  <tr>
+                    <td width="30">&nbsp;</td>
+                    <td width="600" class="text01"><p class="text09">컴퓨터소프트웨어공학과 졸업생의 취업률은 아래 표와 같다. 2000년 신설된 컴퓨터소프트웨어공학과는 부산 지역 유일의 소프트웨어 전문학과로서   지역의 핵심 소프트웨어 전문인력 공급을 담당하기 위한 혁신적인 교육체제, 실험/실습 환경 및 시설을 구축하고 있다. 이를 바탕으로 졸업생의 진출   분야도 삼성전자, 신용보증기금 등의 대기업과 공기업으로 넓어지고 있다.<BR>
+                    </p></td>
+                    <td class="text04">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td class="text04">&nbsp;</td>
+                    <td class="text04">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td height="25" class="text04"><table width="600" border="0" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
+                                                                <tr>
+                        <td height="30" align="center" bgcolor="#E4EFF6">&nbsp;</td>
+                                                                    <td align="center" bgcolor="#E4EFF6" class="text07">2006<br>
+                          (년말기준)</td>
+                        <td align="center" bgcolor="#E4EFF6" class="text07">2007<br>
+                          (년말기준) </td>
+                        <td align="center" bgcolor="#E4EFF6" class="text07">2008<br>
+                          (년말기준) </td>
+                        <td align="center" bgcolor="#E4EFF6" class="text07">2009<br>
+                          (년말기준) </td>
+                                                                    <td align="center" bgcolor="#E4EFF6" class="text07">
+                                                                        <p>2010<br>
+                          (년말기준) </p>
+                                                                    </td>
+						  <td align="center" bgcolor="#E4EFF6" class="text07">2011<br> 
+                          (10/20일 기준) </td>
+                                                                </tr>
+                                                                <tr>
+                        <td height="30" align="center" bgcolor="#E4EFF6" class="text07">대기업</td>
+                                                                    <td align="center" bgcolor="#FFFFFF">10%</td>
+                        <td align="center" bgcolor="#FFFFFF">8.6%</td>
+                        <td align="center" bgcolor="#FFFFFF">14.3%</td>
+                        <td align="center" bgcolor="#FFFFFF">16.2%</td>
+                        <td align="center" bgcolor="#FFFFFF"> 10% </td>
+						<td align="center" bgcolor="#FFFFFF"> 8.7% </td>
+                                                                </tr>
+                                                                <tr>
+                        <td height="30" align="center" bgcolor="#E4EFF6" class="text07">중소기업</td>
+                                                                    <td align="center" bgcolor="#FFFFFF">50%</td>
+                        <td align="center" bgcolor="#FFFFFF">74%</td>
+                        <td align="center" bgcolor="#FFFFFF">65.7%</td>
+                        <td align="center" bgcolor="#FFFFFF">64.9%</td>
+                        <td align="center" bgcolor="#FFFFFF"> 70% </td>
+						<td align="center" bgcolor="#FFFFFF"> 91.3% </td>
+                                                                </tr>
+                                                                <tr>
+                        <td height="30" align="center" bgcolor="#E4EFF6" class="text07">공기업</td>
+                                                                    <td align="center" bgcolor="#FFFFFF">10%</td>
+                        <td align="center" bgcolor="#FFFFFF">-</td>
+                        <td align="center" bgcolor="#FFFFFF">2.9%</td>
+                        <td align="center" bgcolor="#FFFFFF">-</td>
+                        <td align="center" bgcolor="#FFFFFF"> - </td>
+						<td align="center" bgcolor="#FFFFFF">-</td>
+                                                                </tr>
+                      <tr>
+                        <td height="30" align="center" bgcolor="#E4EFF6" class="text07">공무원</td>
+                        <td align="center" bgcolor="#FFFFFF">-</td>
+                        <td align="center" bgcolor="#FFFFFF">-</td>
+                        <td align="center" bgcolor="#FFFFFF">2.9%</td>
+                        <td align="center" bgcolor="#FFFFFF">5.4%</td>
+                        <td align="center" bgcolor="#FFFFFF"> - </td>
+						<td align="center" bgcolor="#FFFFFF">-</td>
+                      </tr>
+                      <tr>
+                        <td height="30" align="center" bgcolor="#E4EFF6" class="text07">교직</td>
+                        <td align="center" bgcolor="#FFFFFF">-</td>
+                        <td align="center" bgcolor="#FFFFFF">8.6%</td>
+                        <td align="center" bgcolor="#FFFFFF">-</td>
+                        <td align="center" bgcolor="#FFFFFF">-</td>
+                        <td align="center" bgcolor="#FFFFFF">-</td>
+						<td align="center" bgcolor="#FFFFFF">-</td>
+                      </tr>
+                                                                <tr>
+                        <td height="30" align="center" bgcolor="#E4EFF6" class="text07">대학원</td>
+                                                                    <td align="center" bgcolor="#FFFFFF">10%</td>
+                        <td align="center" bgcolor="#FFFFFF">4.4%</td>
+                        <td align="center" bgcolor="#FFFFFF">8.6%</td>
+                        <td align="center" bgcolor="#FFFFFF">10.9%</td>
+                        <td align="center" bgcolor="#FFFFFF"> - </td>
+						<td align="center" bgcolor="#FFFFFF"> - </td>
+                                                                </tr>
+                      <tr>
+                        <td height="30" align="center" bgcolor="#E4EFF6" class="text07">기타</td>
+                        <td align="center" bgcolor="#FFFFFF">20%</td>
+                        <td align="center" bgcolor="#FFFFFF">4.4%</td>
+                        <td align="center" bgcolor="#FFFFFF">5.7%</td>
+                        <td align="center" bgcolor="#FFFFFF">13.5%</td>
+                        <td align="center" bgcolor="#FFFFFF"> 20% </td>
+						<td align="center" bgcolor="#FFFFFF"> - </td>
+                      </tr>
+                                                                <tr>
+                        <td height="30" align="center" bgcolor="#E4EFF6" class="text07">전체취업률 </td>
+                                                                    <td align="center" bgcolor="#FFFFFF"> 83.3%</td>
+                        <td align="center" bgcolor="#FFFFFF"> 83.9% </td>
+                        <td align="center" bgcolor="#FFFFFF"> 90.7% </td>
+                        <td align="center" bgcolor="#FFFFFF"> 67.27% </td>
+                        <td align="center" bgcolor="#FFFFFF"> 93% </td>
+						<td align="center" bgcolor="#FFFFFF"> 79% </td>
+                                                                </tr>
+                    </table></td>
+                    <td class="text04">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td height="25" class="text01">&nbsp;</td>
+                    <td class="text04">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td height="25" class="text04">&nbsp;</td>
+                    <td class="text04">&nbsp;</td>
+                  </tr>
+                </table></td>
+                <td width="33" background="../images/s_bg_03.gif">&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="75" background="../images/s_bg_04.gif">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td background="../images/s_bg_05.gif">&nbsp;</td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+    <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="621" background="../images/main_bg_02.gif">&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td valign="top">{#inc_copy}</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>{C.SANGHO} 우편번호검색</title>
+<link href="../css.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../common.js"></script>
+<script type="text/javascript">
+<!--
+function InpupSub(val1, val2, val3){
+	opener.frm.post1.value = val1;
+	opener.frm.post2.value = val2;
+	opener.frm.addr1.value = val3;
+	opener.frm.addr2.focus();
+	window.close();
+}
+
+function checkForm(frm) {
+	var elm = frm.dong;
+
+	if (checkSpecialchar(elm.value)) {
+		alert("검색어에 특수문자를 제거하세요!");
+		elm.focus();
+		return false;
+	}
+
+	if (isNull(elm.value)) {
+		alert("검색어를 입력하세요.");
+		elm.value = '';
+		elm.focus();
+		return false;
+	}
+
+	return true;
+}
+//-->
+</script>
+</head>
+
+<body onload="frm.dong.focus();">
+<table width="365" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+	 <form name="frm" method="post" action="pop_post.php" onsubmit="return checkForm(this);">
+	 <table width="296" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+			<span class="txt">읍/면/동의 이름을 공백없이 입력하세요.</span>
+				<br>
+				<input name="dong" type="text" class="input_1">
+				<span class="main_05"><input type="submit" value="검색"><br>
+          </span><span class="txt">예)'부산광역시 금정구 부곡3동&quot;인 경우 <span class="style2">부곡3동</span>만 입력
+          <br>
+			</span> 
+		</td>
+      </tr>
+      <tr>
+        <td><table width="296" border="0" cellpadding="0" cellspacing="1" bgcolor="5494EB">
+          <tr>
+            <td bgcolor="#FFFFFF" style="padding:10 10 10 10 ">
+					<div style='height:100;overflow:auto;width:276'>
+					<table align="center" width="100%" border='0' cellspacing='0' cellpadding='0'>
+					<!--{? dong != '' }-->
+						<!--{@list}-->
+						<tr>
+						<td width='45' valign="top"><span class="num">{.code}</span></td>
+						<td><span style="cursor:hand" onclick="InpupSub('{.post1}','{.post2}','{.sido} {.gugun} {.dong} {.bunji}');">{.sido} {.gugun} {.dong} {.bunji}</span></td>
+						</tr>
+						<!--{:}-->
+						<tr>
+						<td><span class="num"></span></td>
+						<td>&nbsp;</td>
+						</tr>
+						<!--{/}-->
+					<!--{/}-->
+					</table>
+					</div>
+				</td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+	 </form>
+	 </td>
+  </tr>
+  <tr>
+    <td height="30" valign="bottom"><div align="right"><a href="javascript:self.close();">닫기</a></div></td>
+  </tr>
+</table>
+</body>
+</html>

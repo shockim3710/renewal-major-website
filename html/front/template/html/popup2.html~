@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- author: Prof.Jong Min Lee -->
+<!-- banner1.html -->
+<html>
+<style>
+div#form { text-align:center; font-size: 12px; font-family:"맑은고딕"; }
+</style>
+
+<script type="text/javascript"> 
+	<!-- 
+
+	// 쿠키를 만듭니다. 아래 closeWin() 함수에서 호출됩니다
+
+	function setCookie( name, value, expiredays ) 
+	{ 
+			var todayDate = new Date(); 
+			todayDate.setDate( todayDate.getDate() + expiredays ); 
+			document.cookie = name + "=" + escape( value ) + "; path=/; expires=" + todayDate.toGMTString() + ";" 
+			} 
+
+	// 체크후 닫기버튼을 눌렀을때 쿠키를 만들고 창을 닫습니다
+
+	function closeWin() 
+	{ 
+			if ( document.pop.Banner2.checked ) 
+			setCookie( "banner2", "done" , 1);  // 오른쪽 숫자는 쿠키를 유지할 기간을 설정합니다. 1 -> 하루
+			self.close(); 
+	} 
+	// --> 
+
+</script> 
+
+<head>
+<div id="form">
+<!-- LJM 131120 - src, alt 이름 변경하면 됨 -->
+	<img src="학술공로상.jpg" alt="2015 멀티미디어학회 추계학술발표대회 수상" width="600" height="700">
+	<form name="pop"> 
+		<input type="checkbox" name="Banner2" value="">하루동안 공지창을 띄우지 않습니다.
+		<input type="button" value="닫기" onclick="closeWin()">
+	</form> 
+</div>
+</head>
+<body>
+</body>
+</html>

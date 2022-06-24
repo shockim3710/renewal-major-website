@@ -1,0 +1,159 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>동의대학교 컴퓨터소프트웨어공학과 홈페이지입니다.</title>
+<link href="../../css.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="flash.js"></script>
+<script type="text/javascript" src="../../common.js"></script>
+<style type="text/css">
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+</style>
+<script type="text/javascript">
+
+function checkSearchFrm(frm) {
+	var elm = frm.keyword;
+
+	if (checkSpecialchar(elm.value)) {
+		alert("검색어에 특수문자를 제거하세요!");
+		elm.focus();
+		return false;
+	}
+
+	if (isNull(elm.value)) {
+		alert("검색어를 입력하세요.");
+		elm.value = '';
+		elm.focus();
+		return false;
+	}
+
+	return true;
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('../../images/pro3/m_no_01o.gif','../../images/pro3/m_no_02o.gif')">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><table width="1000" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="72">&nbsp;</td>
+        <td width="840" height="29" align="right" valign="bottom"><img src="../../images/pro3/top_home.gif" width="36" height="16"><img src="../../images/pro3/top_contact.gif" width="65" height="16"><a href="06_board01.html"><img src="../../images/pro3/top_notice.gif" width="56" height="16"></a></td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="72">&nbsp;</td>
+        <td height="70"><script>flash('../../images/pro3/menu.swf','840','70');</script></td>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><table width="1000" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="250" background="../../images/pro3/main_back.gif"><table width="1000" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="72" height="250">&nbsp;</td>
+            <td width="840"><script>flash('../../images/pro3/main.swf','840','250');</script></td>
+            <td>&nbsp;</td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><table width="1000" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="72" valign="top"><table width="72" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="138" background="../../images/pro3/mleft_back.gif">&nbsp;</td>
+          </tr>
+        </table></td>
+        <td width="840" valign="top"><table width="840" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="20" background="../../images/pro3/m_con01.gif">&nbsp;</td>
+          </tr>
+          <tr>
+            <td height="118" background="../../images/pro3/m_con_back.gif"><table width="840" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="32">&nbsp;</td>
+                <td width="321"><table width="321" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td height="26" background="../../images/pro3/m_no_back.gif"><table width="133" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="66"><a href="06_board01.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','../../images/pro3/m_no_01o.gif',1)" onfocus="this.blur();"><img src="../../images/pro3/m_no_01o.gif" name="Image4" width="66" height="26" border="0"></a></td>
+                        <td width="67"><!--a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','../../images/pro3/m_no_02o.gif',1)"><img src="../../images/pro3/m_no_02.gif" name="Image5" width="67" height="26" border="0"></a--></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td height="92" align="center" valign="top" style="padding-top:5px"><table width="300" border="0" cellspacing="0" cellpadding="0">
+							<!--{@noticeList}-->
+                      <tr>
+                        <td height="20" class="notice01"> <a href="06_board01.html?idx={.idx}&act=view"></a> </td>
+                        <td width="80" align="center" class="notice07"></td>
+                      </tr>
+							<!--{/}-->
+                    </table></td>
+                  </tr>
+                </table></td>
+                <td width="19">&nbsp;</td>
+                <td width="219"><table width="219" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td><a href="03_res.html" onfocus="this.blur();"><img src="../../images/pro3/m_img01.gif" width="219" alt="강의질문방" height="60" border="0" /></a></td>
+                  </tr>
+                  <tr>
+                    <td><a href="06_board01.html" onfocus="this.blur();"><img src="../../images/pro3/m_img02.gif" width="219" alt="강의자료실" height="58" border="0" /></a></td>
+                  </tr>
+                </table></td>
+                <td width="25">&nbsp;</td>
+                <td><table width="191" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+				  <td><a href="05_pro.html" onfocus="this.blur();"><img src="../../images/pro3/m_img04.gif" width="191" height="58" border="0" /></a></td>
+                    <!-- td><img src="../../images/pro3/m_data.gif" width="46" height="20"></td>
+                  </tr>
+                  <tr>
+                    <td height="41">
+                      
+						  <form name="sfrm" method="post" action="06_board02.php" onsubmit="return checkSearchFrm();">  
+							 <input type="hidden" name="key" value="all" />
+                      <input name="keyword" type="text" id="keyword" size="18" />
+                      <input type="image" src="../../images/pro3/m_bt_sc.gif" width="40" height="19" align="absmiddle" />
+						  </form>
+							 
+							 </td -->
+                  </tr>
+                  <tr>
+                    <td><a href="mailto:skkwon@deu.ac.kr" onfocus="this.blur();"><img src="../../images/pro3/m_img03.gif" width="191" height="58" border="0" /></a></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td height="22">&nbsp;</td>
+          </tr>
+        </table></td>
+        <td width="88" valign="top"><table width="88" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="138" background="../../images/pro3/mright_back.gif">&nbsp;</td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><table width="1000" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="80">&nbsp;</td>
+        <td><img src="../../images/pro3/s_copy.gif" width="822" height="60"></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>

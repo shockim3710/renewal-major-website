@@ -1,0 +1,79 @@
+<SCRIPT LANGUAGE="JavaScript" src="../../httpRequest.js">
+<!--
+	
+//-->
+</SCRIPT>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function chkNewPopup(val){
+		sendRequest("/front/phtml/professor/gallery_info.php?idx=" + val + "&code={code}&pid={pageID}&p={p}&key={key}&keyword={=urlencode(keyword)}", "", processNewMemo, "GET");
+	}
+
+	function processNewMemo(){
+		var rsTxt = httpRequest.responseText;
+		var data;
+
+		data = rsTxt;
+
+		if (isNull(data)){
+			if (document.layers) {
+				document.layers.cust1.document.write(data);
+				document.layers.cust1.document.close();
+			}else {
+				if (document.all) {
+					cust1.innerHTML = data;
+				 }
+			}
+		}
+		else{
+			if (document.layers) {
+				document.layers.cust1.document.write(data);
+				document.layers.cust1.document.close();
+			}else {
+				if (document.all) {
+					cust1.innerHTML = data;
+				 }
+			}
+		}
+	}
+//-->
+</SCRIPT>
+								<a name="board"></a>
+								<span id="cust1">
+								<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                        <td>&nbsp;</td>
+                        <td align="center">
+									<table width="95%" border="0" cellspacing="0" cellpadding="0">
+                           <tr>
+                           <td height="25"><div id="subject">제목 : <strong>{detail.subject}</strong></div></td>
+                           <td width="90" align="right"><div id="hit">{detail.hit} / {detail.reg_date}</div> </td>
+                           </tr>
+                           </table>
+								</td>
+                        <td align="right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                        <td><!--{? nex_idx != '' }--><a href="#none" onClick="chkNewPopup('{nex_idx}');"><!--{:}--><a href="#none" onClick="alert('이전 이미지가 없습니다.');"><!--{/}--><img src="../../images/pro/icon_prev.gif" width="19" height="44" border="0" /></a></td>
+                        <td align="center">
+									<table width="530" height="400" border="0" cellpadding="5" cellspacing="0">
+                           <tr>
+                           <td bgcolor="#000000">
+										<div id="cover">
+										<!--{? detail.cover == true }-->
+										<a href="{pageID}.php?act=view&idx={detail.idx}&p={p}&key={key}&keyword={=urlencode(keyword)}"><img src="{C.UPLOAD_DIR}/{code}/{detail.upload_dir}/{detail.cover}" width="520" height="390" border="0" /></a>
+										<!--{/}-->
+										</div>
+									</td>
+                           </tr>
+                           </table>
+								</td>
+                        <td align="right"><!--{? pre_idx != '' }--><a href="#none" onClick="chkNewPopup('{pre_idx}');"><!--{:}--><a href="#none" onClick="alert('다음 이미지가 없습니다.');"><!--{/}--><img src="../../images/pro/icon_next.gif" width="19" height="44" border="0" /></a></td>
+                        </tr>
+                        <tr>
+                        <td>&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="right">&nbsp;</td>
+                        </tr>
+								</table>
+								</span>

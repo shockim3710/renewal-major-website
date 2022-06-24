@@ -1,0 +1,85 @@
+/* CSS Document */
+img {border:0px;}
+a:link {text-decoration:none; color: #555555; }
+a:visited {text-decoration:none; color: #555555; }
+a:active {text-decoration:none; color: #555555; } / a:active {text-decoration:underline; color: #555555; } 
+a:hover {text-decoration:none; color: #000000; }
+BODY {FONT-SIZE: 12px; line-height:140%; color: #000000;FONT-FAMILY: 굴림,Arial,'Arial Black';}
+td   {FONT-SIZE: 12px; line-height:140%;  color: #000000;FONT-FAMILY: 굴림,Arial,'Arial Black';}
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.textnavi { font-family:굴림,Arial,'Arial Black'; font-size:11px;color:#6c6c6c;}
+
+.text01 { font-family:굴림,Arial,'Arial Black'; font-size:9pt;color:#000000;line-height:17px;}
+.text02 { font-family:굴림,Arial,'Arial Black'; font-size:9pt;color:#fa6928;}
+.text03 { font-family:굴림,Arial,'Arial Black'; font-size:9pt;color:#fa6928;font-weight:bold;}
+.text04 { font-family:굴림,Arial,'Arial Black'; font-size:12px;color:#000000;}
+.text05 { font-family:굴림,Arial,'Arial Black'; font-size:12px;color:#666666;line-height:22px;}
+.text06 { font-family:굴림,Arial,'Arial Black'; font-size:12px;color:#000000;font-weight:bold;}
+.text07 { font-family:굴림,Arial,'Arial Black'; font-size:12px;color:#0b6db5;font-weight:bold;}
+.text08 { font-family:굴림,Arial,'Arial Black'; font-size:12px;color:#000000;line-height:18px;}
+.text09 { font-family:굴림,Arial,'Arial Black'; font-size:12px;color:#0b6db5;}
+.text10 { font-family:굴림,Arial,'Arial Black'; font-size:13px;color:#0000A0;font-weight:bold;line-height:25px;}
+.text11 { font-family:굴림,Arial,'Arial Black'; font-size:12px;color:#43880b;font-weight:bold;}
+
+.main_tilte { font-family:굴림,Arial,'Arial Black'; font-size:12px;color:#ffffff;font-weight:bold;}
+.main_text { font-family:굴림,Arial,'Arial Black'; font-size:12px;color:#ffffff;}
+
+.photo01 { font-family:굴림,Arial,'Arial Black'; font-size:12px;color:#95584c;}
+.photonum { font-family:tahoma ; font-size:12px;color:#ffffff;font-weight:bold;}
+
+.notice_T { font-family:굴림,Arial,'Arial Black'; font-size:12px;color:#000000;font-weight:bold;}
+.notice01 { font-family:굴림,Arial,'Arial Black'; font-size:12px;color:#000000;}
+.notice02 { font-family:굴림,Arial,'Arial Black'; font-size:11px;color:#000000;}
+.notice03 { font-family:굴림,Arial,'Arial Black'; font-size:12px;color:#000000;line-height:20px;}
+.notice04 { font-family:굴림,Arial,'Arial Black'; font-size:12px;color:#000000;font-weight:bold;}
+.notice05 { font-family:굴림,Arial,'Arial Black'; font-size:12px;color:#000000;font-weight:bold;}
+.notice06 { padding:10px; font-family:gulim; font-size:12px;color:#333333;}
+.notice_nem { font-family:굴림,Arial,'Arial Black'; font-size:12px;color:#ffffff;font-weight:bold;}
+.news { font-family:굴림,Arial,'Arial Black'; font-size:12px;color:#e81206;font-weight:bold;}
+.news2 { font-family:굴림,Arial,'Arial Black'; font-size:12px;color:#000000;font-weight:bold;}
+.event { font-family:굴림,Arial,'Arial Black'; font-size:12px;color:#d28500;font-weight:bold;}
+
+.indexing { font-family:굴림,Arial,'Arial Black'; font-size:12px;color:#757676;}
+.tvdate { font-family:굴림,Arial,'Arial Black'; font-size:12px;color:#0b6db5;font-weight:bold;}
+
+select{behavior: url('html/css/css/selectbox2.htc');}
+
+form { display : inline; }
+
+.board_sel_pagenum
+{
+	font-family:굴림,Arial,'Arial Black'; font-size:12px;color:#0b6db5;font-weight:bold;
+}
+
+.input_bbs
+{ font-family: 굴림,Arial,'Arial Black';
+font-size: 12px;
+color: #333333;
+Border:1x SOLID #bdbdbf;
+background: #ffffff;
+height: 22px;
+margin: 0px;
+}
+
+.input
+{ font-family: 굴림,Arial,'Arial Black';
+font-size: 12px;
+color: #000000;
+Border:1x SOLID #bdbdbf;
+height: 20px;
+margin: 0px;
+}
+
+.input_txt
+{ font-family: 굴림,Arial,'Arial Black';
+font-size: 12px;
+color: #000000;
+Border:1x SOLID #bdbdbf;
+margin: 0px;
+}
