@@ -39,58 +39,56 @@
 
 * 데이터의 시각화  
 ![image](https://user-images.githubusercontent.com/60650967/175767774-6a465e51-86a1-4962-bfc3-c900ac92f572.png)  
+
 ![image](https://user-images.githubusercontent.com/60650967/175767803-73b23ecc-1152-4ed8-bbab-18972e779a8b.png)  
-![image](https://user-images.githubusercontent.com/60650967/175767812-ee2fbd1a-a774-4820-9695-3ddbe9dee124.png)
 ![image](https://user-images.githubusercontent.com/60650967/175767828-6f06a44f-e784-4a3a-b6ca-406aecc4f463.png)  
+
 ![image](https://user-images.githubusercontent.com/60650967/175767832-1bf8dd5a-68b8-4795-b57d-54a37bcadacd.png)
 ![image](https://user-images.githubusercontent.com/60650967/175767838-61f9f31b-0d64-49c7-b127-5fb889bf3d20.png)  
 
+
 * 오시는 길의 지도추가  
-![image](https://user-images.githubusercontent.com/60650967/175767844-45a9dcaa-e127-444c-aeb2-285982ec93eb.png)
-![image](https://user-images.githubusercontent.com/60650967/175767845-6aa8d159-6816-42c0-b5d3-2f9a09009bf2.png)
-![image](https://user-images.githubusercontent.com/60650967/175767848-3f3b840f-dc7b-4a49-bbfb-840c17ed4ceb.png)
+![image](https://user-images.githubusercontent.com/60650967/175767844-45a9dcaa-e127-444c-aeb2-285982ec93eb.png)  
 
-![image](https://user-images.githubusercontent.com/60650967/175767858-2b548551-d9d0-4c07-9c09-515943ebf995.png)
-![image](https://user-images.githubusercontent.com/60650967/175767862-e3553a7a-8cc3-4d12-9ef1-869fc90dab59.png)
+![image](https://user-images.githubusercontent.com/60650967/175767864-660772c9-614f-4712-88c5-9203de1ac56c.png)  
 
-![image](https://user-images.githubusercontent.com/60650967/175767864-660772c9-614f-4712-88c5-9203de1ac56c.png)
-![image](https://user-images.githubusercontent.com/60650967/175767866-d7831a43-ff1e-4768-9388-035e824fa638.png)
 ![image](https://user-images.githubusercontent.com/60650967/175767868-62c10a08-9806-494b-9609-4a2187be201b.png)
 ![image](https://user-images.githubusercontent.com/60650967/175767875-b8c333af-22f6-460b-a649-53f060e4606c.png)
-![image](https://user-images.githubusercontent.com/60650967/175767883-7f1752df-9c57-449b-b042-533386d9e8ce.png)
+![image](https://user-images.githubusercontent.com/60650967/175767883-7f1752df-9c57-449b-b042-533386d9e8ce.png)  
 
 ![image](https://user-images.githubusercontent.com/60650967/175767888-5f334d32-e831-4d44-ba26-8d8b214afb69.png)
-![image](https://user-images.githubusercontent.com/60650967/175767892-7114de5b-c997-4fe1-bdd8-b8d5119dec18.png)
 ![image](https://user-images.githubusercontent.com/60650967/175767897-32c6be4c-fed8-44e3-9d85-250f5ff394f7.png)  
 
+
 * ‘오늘의 추천메뉴’ 게시판 추가  
-![image](https://user-images.githubusercontent.com/60650967/175767905-4ef1faad-66c8-4e15-a7ad-3004657cec15.png)
-![image](https://user-images.githubusercontent.com/60650967/175767913-4a9e99ed-d94a-43e9-aa0a-67a22a96f699.png)
+![image](https://user-images.githubusercontent.com/60650967/175767905-4ef1faad-66c8-4e15-a7ad-3004657cec15.png)  
+
+![image](https://user-images.githubusercontent.com/60650967/175767913-4a9e99ed-d94a-43e9-aa0a-67a22a96f699.png)  
+
 ![image](https://user-images.githubusercontent.com/60650967/175767918-41ead7d5-f200-4b50-ae52-e9f719bb27c4.png)
 ![image](https://user-images.githubusercontent.com/60650967/175767921-d4d62583-cc91-42c7-bd4a-a3fa559983ba.png)
 ![image](https://user-images.githubusercontent.com/60650967/175767923-2a545d8b-d6dc-4a71-a49f-373c39532370.png)
 ![image](https://user-images.githubusercontent.com/60650967/175767926-10966ae7-8eb9-49a2-b984-942171ec2bce.png)  
 
-* ‘안내도 및 대피로’ 게시판 추가  
-![image](https://user-images.githubusercontent.com/60650967/175767929-514f6cbb-869f-4b6f-a161-565bf741a83b.png)
 
-![image](https://user-images.githubusercontent.com/60650967/175767930-d3159afc-0e3b-4718-8102-03c48114503a.png)
-![image](https://user-images.githubusercontent.com/60650967/175767934-9324589b-d078-40bb-a8a1-9cd7112e39d2.png)
+* ‘안내도 및 대피로’ 게시판 추가  
+![image](https://user-images.githubusercontent.com/60650967/175767929-514f6cbb-869f-4b6f-a161-565bf741a83b.png)  
+
+![image](https://user-images.githubusercontent.com/60650967/175767934-9324589b-d078-40bb-a8a1-9cd7112e39d2.png)  
+
 ![image](https://user-images.githubusercontent.com/60650967/175767935-750ea20f-a227-42a7-b823-cd99cbd2740f.png)
 
-![image](https://user-images.githubusercontent.com/60650967/175767937-9d20a4fb-e23d-4782-b7ca-2ee66c75979a.png)
-![image](https://user-images.githubusercontent.com/60650967/175767939-49fcb274-62a7-492a-b225-8ddd7c46c378.png)
-![image](https://user-images.githubusercontent.com/60650967/175767940-d7736d18-153d-4633-9ca6-773397d04d7e.png)
+![image](https://user-images.githubusercontent.com/60650967/175767939-49fcb274-62a7-492a-b225-8ddd7c46c378.png)  
+![image](https://user-images.githubusercontent.com/60650967/175767940-d7736d18-153d-4633-9ca6-773397d04d7e.png)  
 
-![image](https://user-images.githubusercontent.com/60650967/175767947-5fb645bf-286b-429e-afd5-9062ab87a020.png)
-![image](https://user-images.githubusercontent.com/60650967/175767950-6d8153ba-cd06-439c-a9ee-747dc43cef38.png)
+![image](https://user-images.githubusercontent.com/60650967/175767950-6d8153ba-cd06-439c-a9ee-747dc43cef38.png)  
 ![image](https://user-images.githubusercontent.com/60650967/175767952-ba3a0d51-4f3e-40e7-94ca-180d8131ae10.png)  
+
 
 * 챗봇 기능 추가  
 
 ![image](https://user-images.githubusercontent.com/60650967/175767955-fd0fc50b-aa22-43b4-9912-ea1437b2eebd.png)
-![image](https://user-images.githubusercontent.com/60650967/175767960-19f320b3-e216-40af-94e8-a14ab7f1236b.png)
-![image](https://user-images.githubusercontent.com/60650967/175767971-c5ac139e-6a05-497b-a373-cad2ad997e1a.png)
+![image](https://user-images.githubusercontent.com/60650967/175767960-19f320b3-e216-40af-94e8-a14ab7f1236b.png)  
 
 ![image](https://user-images.githubusercontent.com/60650967/175767983-3abf4c3a-2267-442b-b7ee-76acb849ebfb.png)
 ![image](https://user-images.githubusercontent.com/60650967/175767992-64dabc89-f6fc-4760-82e3-c5dca940decf.png)
