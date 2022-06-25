@@ -46,6 +46,7 @@
 ![image](https://user-images.githubusercontent.com/60650967/175767832-1bf8dd5a-68b8-4795-b57d-54a37bcadacd.png)
 ![image](https://user-images.githubusercontent.com/60650967/175767838-61f9f31b-0d64-49c7-b127-5fb889bf3d20.png)  
 
+---
 
 * 오시는 길의 지도추가  
 ![image](https://user-images.githubusercontent.com/60650967/175767844-45a9dcaa-e127-444c-aeb2-285982ec93eb.png)  
@@ -59,6 +60,7 @@
 ![image](https://user-images.githubusercontent.com/60650967/175767888-5f334d32-e831-4d44-ba26-8d8b214afb69.png)
 ![image](https://user-images.githubusercontent.com/60650967/175767897-32c6be4c-fed8-44e3-9d85-250f5ff394f7.png)  
 
+---
 
 * ‘오늘의 추천메뉴’ 게시판 추가  
 ![image](https://user-images.githubusercontent.com/60650967/175767905-4ef1faad-66c8-4e15-a7ad-3004657cec15.png)  
@@ -70,6 +72,7 @@
 ![image](https://user-images.githubusercontent.com/60650967/175767923-2a545d8b-d6dc-4a71-a49f-373c39532370.png)
 ![image](https://user-images.githubusercontent.com/60650967/175767926-10966ae7-8eb9-49a2-b984-942171ec2bce.png)  
 
+---
 
 * ‘안내도 및 대피로’ 게시판 추가  
 ![image](https://user-images.githubusercontent.com/60650967/175767929-514f6cbb-869f-4b6f-a161-565bf741a83b.png)  
@@ -84,6 +87,7 @@
 ![image](https://user-images.githubusercontent.com/60650967/175767950-6d8153ba-cd06-439c-a9ee-747dc43cef38.png)  
 ![image](https://user-images.githubusercontent.com/60650967/175767952-ba3a0d51-4f3e-40e7-94ca-180d8131ae10.png)  
 
+---
 
 * 챗봇 기능 추가  
 
