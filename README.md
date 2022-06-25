@@ -35,7 +35,7 @@
 
 
 ## About Project
-<img src="https://img.shields.io/badge/Language-HTML|CSS|JavaScript-green?style=flat"/>  
+<img src="https://img.shields.io/badge/Language-HTML | CSS | JavaScript-green?style=flat"/>  
 
 * 데이터의 시각화  
 ![image](https://user-images.githubusercontent.com/60650967/175767774-6a465e51-86a1-4962-bfc3-c900ac92f572.png)  
