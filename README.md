@@ -5,44 +5,47 @@
 
 > 인터넷프로그래밍 팀프로젝트
 
-> 2021.03.28 ~ 2021.06.03
+> 2021.03.28 ~ 2021.06.03  
 
 
 
 
 ## Project Background and Objectives
-* 기존 동의대학교 컴퓨터 소프트웨어 공학과 홈페이지(https://cse.deu.ac.kr/)는 공지 사항이나 학년별 교과과정 등 주된 게시판은 활용이 잘 되지만, 그 이외에 정보가 부족하거나 시각적으로 한눈에 들어오지 않았다. 따라서 그에 대한 미흡 점을 개선하고, 정보를 추가하여 더욱 나은 서비스 환경을 제공할 수 있도록 한다.
+* 기존 동의대학교 컴퓨터 소프트웨어 공학과 홈페이지(https://cse.deu.ac.kr/)는 공지 사항이나 학년별 교과과정 등 주된 게시판은 활용이 잘 되지만, 그 이외에 정보가 부족하거나 시각적으로 한눈에 들어오지 않았다. 따라서 그에 대한 미흡 점을 개선하고, 정보를 추가하여 더욱 나은 서비스 환경을 제공할 수 있도록 한다.  
 
 
 
 
 ## Summary
-* 데이터의 시각화
+* 데이터의 시각화  
 기존 ‘취업 현황’ 게시판의 취업률은 표로 생성되어 있어 한눈에 들어오지 않는다. 따라서 연도별로 원클릭 이벤트를 추가하여 원그래프로 해당연도의 취업률 통계 그래프를 보여주고, 막대그래프를 통해 전체연도의 취업률 통계를 보여준다.
 
-* 오시는 길의 지도추가이다.
+* 오시는 길의 지도추가  
 기존 ‘위치 및 연락처’ 게시판의 오시는 길에는 지도가 사진으로만 표시되어 있어서 어느 위치에 어느 곳으로 가야 하는지 정확히 알지 못한다. 따라서 네이버 지도 API를 활용하여 로드뷰 표시, 항공뷰 표시, 지도 위 경로 표시, 길 찾기 주소연결 기능을 추가하였다.
 
-* ‘오늘의 추천메뉴’ 게시판 추가이다.
+* ‘오늘의 추천메뉴’ 게시판 추가  
 동의대학교 근처에는 음식점도 많고, 맛집도 많다. 그래서 메뉴를 하나만 고르기가 힘들 때도 있다. 그럴 때 간단하게 게시판에서 학교 근처 음식점을 선택해주고, 추천도와 코멘트를 확인할 수 있다.
 
-* ‘안내도 및 대피로’ 게시판 추가이다.
+* ‘안내도 및 대피로’ 게시판 추가  
 기존 학과 홈페이지에는 강의실 배치도나 사진이 없어 강의실을 찾기 어려울 때가 있다. 따라서 안내도와 대피로를 띄우고, 호실 영역에 마우스를 올리면 해당 강의실 사진이 표시되는 게시판을 추가한다.
 
-* 챗봇 기능 추가이다.
+* 챗봇 기능 추가  
 기존 학과 홈페이지에서는 원하는 정보를 직접 검색하거나 학과사무실에 연락하여 알아냈다. 따라서 챗봇 기능을 추가하여 사용자가 궁금한 점을 입력하면 바로 원하는 정보를 알아낼 수 있다.
 
 
 
 ## About Project
-<img src="https://img.shields.io/badge/Language--HTML|CSS|JavaScript-green?style=flat"/>
+<img src="https://img.shields.io/badge/Language-HTML|CSS|JavaScript-green?style=flat"/>  
 
-![image](https://user-images.githubusercontent.com/60650967/175767774-6a465e51-86a1-4962-bfc3-c900ac92f572.png)
-![image](https://user-images.githubusercontent.com/60650967/175767803-73b23ecc-1152-4ed8-bbab-18972e779a8b.png)
+* 데이터의 시각화  
+![image](https://user-images.githubusercontent.com/60650967/175767774-6a465e51-86a1-4962-bfc3-c900ac92f572.png)  
+![image](https://user-images.githubusercontent.com/60650967/175767803-73b23ecc-1152-4ed8-bbab-18972e779a8b.png)  
 ![image](https://user-images.githubusercontent.com/60650967/175767812-ee2fbd1a-a774-4820-9695-3ddbe9dee124.png)
-![image](https://user-images.githubusercontent.com/60650967/175767828-6f06a44f-e784-4a3a-b6ca-406aecc4f463.png)
+![image](https://user-images.githubusercontent.com/60650967/175767828-6f06a44f-e784-4a3a-b6ca-406aecc4f463.png)  
 ![image](https://user-images.githubusercontent.com/60650967/175767832-1bf8dd5a-68b8-4795-b57d-54a37bcadacd.png)
-![image](https://user-images.githubusercontent.com/60650967/175767838-61f9f31b-0d64-49c7-b127-5fb889bf3d20.png)
+![image](https://user-images.githubusercontent.com/60650967/175767838-61f9f31b-0d64-49c7-b127-5fb889bf3d20.png)  
+
+* 오시는 길의 지도추가  
 ![image](https://user-images.githubusercontent.com/60650967/175767844-45a9dcaa-e127-444c-aeb2-285982ec93eb.png)
 ![image](https://user-images.githubusercontent.com/60650967/175767845-6aa8d159-6816-42c0-b5d3-2f9a09009bf2.png)
 ![image](https://user-images.githubusercontent.com/60650967/175767848-3f3b840f-dc7b-4a49-bbfb-840c17ed4ceb.png)
@@ -58,14 +61,17 @@
 
 ![image](https://user-images.githubusercontent.com/60650967/175767888-5f334d32-e831-4d44-ba26-8d8b214afb69.png)
 ![image](https://user-images.githubusercontent.com/60650967/175767892-7114de5b-c997-4fe1-bdd8-b8d5119dec18.png)
-![image](https://user-images.githubusercontent.com/60650967/175767897-32c6be4c-fed8-44e3-9d85-250f5ff394f7.png)
+![image](https://user-images.githubusercontent.com/60650967/175767897-32c6be4c-fed8-44e3-9d85-250f5ff394f7.png)  
+
+* ‘오늘의 추천메뉴’ 게시판 추가  
 ![image](https://user-images.githubusercontent.com/60650967/175767905-4ef1faad-66c8-4e15-a7ad-3004657cec15.png)
 ![image](https://user-images.githubusercontent.com/60650967/175767913-4a9e99ed-d94a-43e9-aa0a-67a22a96f699.png)
 ![image](https://user-images.githubusercontent.com/60650967/175767918-41ead7d5-f200-4b50-ae52-e9f719bb27c4.png)
 ![image](https://user-images.githubusercontent.com/60650967/175767921-d4d62583-cc91-42c7-bd4a-a3fa559983ba.png)
 ![image](https://user-images.githubusercontent.com/60650967/175767923-2a545d8b-d6dc-4a71-a49f-373c39532370.png)
-![image](https://user-images.githubusercontent.com/60650967/175767926-10966ae7-8eb9-49a2-b984-942171ec2bce.png)
+![image](https://user-images.githubusercontent.com/60650967/175767926-10966ae7-8eb9-49a2-b984-942171ec2bce.png)  
 
+* ‘안내도 및 대피로’ 게시판 추가  
 ![image](https://user-images.githubusercontent.com/60650967/175767929-514f6cbb-869f-4b6f-a161-565bf741a83b.png)
 
 ![image](https://user-images.githubusercontent.com/60650967/175767930-d3159afc-0e3b-4718-8102-03c48114503a.png)
@@ -78,7 +84,9 @@
 
 ![image](https://user-images.githubusercontent.com/60650967/175767947-5fb645bf-286b-429e-afd5-9062ab87a020.png)
 ![image](https://user-images.githubusercontent.com/60650967/175767950-6d8153ba-cd06-439c-a9ee-747dc43cef38.png)
-![image](https://user-images.githubusercontent.com/60650967/175767952-ba3a0d51-4f3e-40e7-94ca-180d8131ae10.png)
+![image](https://user-images.githubusercontent.com/60650967/175767952-ba3a0d51-4f3e-40e7-94ca-180d8131ae10.png)  
+
+* 챗봇 기능 추가  
 
 ![image](https://user-images.githubusercontent.com/60650967/175767955-fd0fc50b-aa22-43b4-9912-ea1437b2eebd.png)
 ![image](https://user-images.githubusercontent.com/60650967/175767960-19f320b3-e216-40af-94e8-a14ab7f1236b.png)
